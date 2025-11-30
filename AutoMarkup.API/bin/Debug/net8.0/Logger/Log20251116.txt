@@ -1,0 +1,1462 @@
+2025-11-16 00:12:50.404 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 00:12:50.504 +03:00 [DBG] Hosting starting
+2025-11-16 00:12:50.681 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 00:12:50.683 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 00:12:50.684 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 00:12:50.684 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 00:12:50.685 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 00:12:50.744 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 00:12:50.746 +03:00 [INF] Hosting environment: Development
+2025-11-16 00:12:50.746 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 00:12:50.747 +03:00 [DBG] Hosting started
+2025-11-16 00:12:51.057 +03:00 [DBG] Connection id "0HNH4HEU40AH0" accepted.
+2025-11-16 00:12:51.059 +03:00 [DBG] Connection id "0HNH4HEU40AH0" started.
+2025-11-16 00:12:51.104 +03:00 [DBG] Connection id "0HNH4HEU40AH0" received FIN.
+2025-11-16 00:12:51.104 +03:00 [DBG] Connection id "0HNH4HEU40AH1" received FIN.
+2025-11-16 00:12:51.108 +03:00 [DBG] Connection id "0HNH4HEU40AH1" accepted.
+2025-11-16 00:12:51.109 +03:00 [DBG] Connection id "0HNH4HEU40AH1" started.
+2025-11-16 00:12:51.110 +03:00 [DBG] Connection id "0HNH4HEU40AH0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:12:51.110 +03:00 [DBG] Connection id "0HNH4HEU40AH1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:12:51.113 +03:00 [DBG] Connection id "0HNH4HEU40AH0" disconnecting.
+2025-11-16 00:12:51.113 +03:00 [DBG] Connection id "0HNH4HEU40AH1" disconnecting.
+2025-11-16 00:12:51.122 +03:00 [DBG] Connection id "0HNH4HEU40AH0" stopped.
+2025-11-16 00:12:51.122 +03:00 [DBG] Connection id "0HNH4HEU40AH1" stopped.
+2025-11-16 00:12:51.398 +03:00 [DBG] Connection id "0HNH4HEU40AH2" accepted.
+2025-11-16 00:12:51.399 +03:00 [DBG] Connection id "0HNH4HEU40AH2" started.
+2025-11-16 00:12:51.550 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 00:12:51.567 +03:00 [DBG] Connection id "0HNH4HEU40AH3" accepted.
+2025-11-16 00:12:51.569 +03:00 [DBG] Connection id "0HNH4HEU40AH3" started.
+2025-11-16 00:12:51.774 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 00:12:51.798 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 00:12:51.800 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:12:51.872 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 00:12:51.875 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 00:12:51.905 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 00:12:51.907 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 00:12:51.908 +03:00 [DBG] Connection id "0HNH4HEU40AH2" completed keep alive response.
+2025-11-16 00:12:51.913 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 378.1685ms
+2025-11-16 00:12:51.996 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 00:12:52.004 +03:00 [DBG] Connection id "0HNH4HEU40AH2" completed keep alive response.
+2025-11-16 00:12:52.008 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 12.4373ms
+2025-11-16 00:12:52.025 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 00:12:52.074 +03:00 [DBG] Connection id "0HNH4HEU40AH2" completed keep alive response.
+2025-11-16 00:12:52.076 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.4958ms
+2025-11-16 00:12:52.205 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 00:12:52.207 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 00:12:52.208 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:12:52.243 +03:00 [DBG] Connection id "0HNH4HEU40AH2" completed keep alive response.
+2025-11-16 00:12:52.244 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.6863ms
+2025-11-16 00:12:55.312 +03:00 [DBG] Connection id "0HNH4HEU40AH3" received FIN.
+2025-11-16 00:12:55.312 +03:00 [DBG] Connection id "0HNH4HEU40AH2" received FIN.
+2025-11-16 00:12:55.314 +03:00 [DBG] Connection id "0HNH4HEU40AH3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:12:55.315 +03:00 [DBG] Connection id "0HNH4HEU40AH2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:12:55.316 +03:00 [DBG] Connection id "0HNH4HEU40AH3" disconnecting.
+2025-11-16 00:12:55.317 +03:00 [DBG] Connection id "0HNH4HEU40AH2" disconnecting.
+2025-11-16 00:12:55.318 +03:00 [DBG] Connection id "0HNH4HEU40AH3" stopped.
+2025-11-16 00:12:55.331 +03:00 [DBG] Connection id "0HNH4HEU40AH2" stopped.
+2025-11-16 00:16:42.326 +03:00 [DBG] Connection id "0HNH4HEU40AH4" accepted.
+2025-11-16 00:16:42.327 +03:00 [DBG] Connection id "0HNH4HEU40AH4" started.
+2025-11-16 00:16:42.333 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 00:16:42.333 +03:00 [DBG] Connection id "0HNH4HEU40AH5" accepted.
+2025-11-16 00:16:42.336 +03:00 [DBG] Connection id "0HNH4HEU40AH5" started.
+2025-11-16 00:16:42.344 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 00:16:42.345 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:16:42.348 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 00:16:42.349 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 00:16:42.350 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 00:16:42.351 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 00:16:42.351 +03:00 [DBG] Connection id "0HNH4HEU40AH4" completed keep alive response.
+2025-11-16 00:16:42.352 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 19.6436ms
+2025-11-16 00:16:42.366 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 00:16:42.366 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 00:16:42.368 +03:00 [DBG] Connection id "0HNH4HEU40AH4" completed keep alive response.
+2025-11-16 00:16:42.371 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.4563ms
+2025-11-16 00:16:42.386 +03:00 [DBG] Connection id "0HNH4HEU40AH5" completed keep alive response.
+2025-11-16 00:16:42.387 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.9254ms
+2025-11-16 00:16:42.446 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 00:16:42.448 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 00:16:42.449 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:16:42.464 +03:00 [DBG] Connection id "0HNH4HEU40AH5" completed keep alive response.
+2025-11-16 00:16:42.466 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.9013ms
+2025-11-16 00:16:50.160 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13924
+2025-11-16 00:16:50.170 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 00:16:50.177 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 00:16:50.179 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:16:50.183 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 00:16:50.185 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 00:16:50.187 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:16:50.216 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 00:16:50.220 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 00:16:50.221 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 00:16:50.222 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 00:16:50.225 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 00:16:50.226 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 00:16:50.228 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:16:50.379 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:16:50.385 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:16:50.388 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 00:16:50.391 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 00:16:50.412 +03:00 [DBG] Connection id "0HNH4HEU40AH5", Request id "0HNH4HEU40AH5:00000003": started reading request body.
+2025-11-16 00:16:50.414 +03:00 [DBG] Connection id "0HNH4HEU40AH5", Request id "0HNH4HEU40AH5:00000003": done reading request body.
+2025-11-16 00:16:50.447 +03:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.Guid. Path: $.pages[0].elements[6].styleRuleIds[0] | LineNumber: 123 | BytePositionInLine: 50.
+2025-11-16 00:16:50.448 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:16:50.450 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:16:50.451 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:16:50.458 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:16:50.461 +03:00 [DBG] The request has model state errors, returning an error response.
+2025-11-16 00:16:50.463 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-11-16 00:16:50.466 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 00:16:50.469 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 00:16:50.470 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-11-16 00:16:50.474 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-11-16 00:16:50.476 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-16 00:16:50.500 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 270.525ms
+2025-11-16 00:16:50.502 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:16:50.503 +03:00 [DBG] Connection id "0HNH4HEU40AH5" completed keep alive response.
+2025-11-16 00:16:50.504 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 400 null application/problem+json; charset=utf-8 343.5193ms
+2025-11-16 00:16:50.649 +03:00 [DBG] Connection id "0HNH4HEU40AH5" received FIN.
+2025-11-16 00:16:50.649 +03:00 [DBG] Connection id "0HNH4HEU40AH4" received FIN.
+2025-11-16 00:16:50.651 +03:00 [DBG] Connection id "0HNH4HEU40AH5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:16:50.651 +03:00 [DBG] Connection id "0HNH4HEU40AH4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:16:50.653 +03:00 [DBG] Connection id "0HNH4HEU40AH5" disconnecting.
+2025-11-16 00:16:50.657 +03:00 [DBG] Connection id "0HNH4HEU40AH4" disconnecting.
+2025-11-16 00:16:50.670 +03:00 [DBG] Connection id "0HNH4HEU40AH5" stopped.
+2025-11-16 00:16:50.671 +03:00 [DBG] Connection id "0HNH4HEU40AH4" stopped.
+2025-11-16 00:18:45.843 +03:00 [DBG] Connection id "0HNH4HEU40AH6" accepted.
+2025-11-16 00:18:45.855 +03:00 [DBG] Connection id "0HNH4HEU40AH6" started.
+2025-11-16 00:18:45.856 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 4661
+2025-11-16 00:18:45.860 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 00:18:45.861 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 00:18:45.862 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:18:45.863 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 00:18:45.863 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:18:45.864 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 00:18:45.866 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 00:18:45.867 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 00:18:45.868 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 00:18:45.869 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 00:18:45.870 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 00:18:45.871 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:18:45.873 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:18:45.881 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:18:45.881 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 00:18:45.882 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 00:18:45.883 +03:00 [DBG] Connection id "0HNH4HEU40AH6", Request id "0HNH4HEU40AH6:00000001": started reading request body.
+2025-11-16 00:18:45.884 +03:00 [DBG] Connection id "0HNH4HEU40AH6", Request id "0HNH4HEU40AH6:00000001": done reading request body.
+2025-11-16 00:18:45.890 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 00:18:45.890 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:18:45.891 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:18:45.892 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:18:45.903 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:18:46.281 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 00:18:46.283 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 00:18:46.284 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-16 00:18:46.284 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-16 00:18:46.285 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-16 00:18:46.286 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-16 00:18:46.292 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 421.2854ms
+2025-11-16 00:18:46.294 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:18:46.294 +03:00 [DBG] Connection id "0HNH4HEU40AH6" completed keep alive response.
+2025-11-16 00:18:46.295 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 200 null application/json; charset=utf-8 438.7703ms
+2025-11-16 00:18:50.807 +03:00 [DBG] Connection id "0HNH4HEU40AH6" received FIN.
+2025-11-16 00:18:50.813 +03:00 [DBG] Connection id "0HNH4HEU40AH6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:18:50.818 +03:00 [DBG] Connection id "0HNH4HEU40AH6" disconnecting.
+2025-11-16 00:18:50.821 +03:00 [DBG] Connection id "0HNH4HEU40AH6" stopped.
+2025-11-16 00:38:54.103 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 00:38:54.193 +03:00 [DBG] Hosting starting
+2025-11-16 00:38:54.356 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 00:38:54.357 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 00:38:54.358 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 00:38:54.359 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 00:38:54.360 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 00:38:54.395 +03:00 [DBG] Connection id "0HNH4HTG15DML" accepted.
+2025-11-16 00:38:54.398 +03:00 [DBG] Connection id "0HNH4HTG15DML" started.
+2025-11-16 00:38:54.404 +03:00 [DBG] Connection id "0HNH4HTG15DMM" accepted.
+2025-11-16 00:38:54.412 +03:00 [DBG] Connection id "0HNH4HTG15DMM" started.
+2025-11-16 00:38:54.418 +03:00 [DBG] Connection id "0HNH4HTG15DML" received FIN.
+2025-11-16 00:38:54.418 +03:00 [DBG] Connection id "0HNH4HTG15DMM" received FIN.
+2025-11-16 00:38:54.427 +03:00 [DBG] Connection id "0HNH4HTG15DML" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:38:54.427 +03:00 [DBG] Connection id "0HNH4HTG15DMM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:38:54.430 +03:00 [DBG] Connection id "0HNH4HTG15DML" disconnecting.
+2025-11-16 00:38:54.430 +03:00 [DBG] Connection id "0HNH4HTG15DMM" disconnecting.
+2025-11-16 00:38:54.431 +03:00 [DBG] Connection id "0HNH4HTG15DML" stopped.
+2025-11-16 00:38:54.432 +03:00 [DBG] Connection id "0HNH4HTG15DMM" stopped.
+2025-11-16 00:38:54.449 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 00:38:54.450 +03:00 [INF] Hosting environment: Development
+2025-11-16 00:38:54.451 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 00:38:54.452 +03:00 [DBG] Hosting started
+2025-11-16 00:38:54.613 +03:00 [DBG] Connection id "0HNH4HTG15DMN" accepted.
+2025-11-16 00:38:54.614 +03:00 [DBG] Connection id "0HNH4HTG15DMN" started.
+2025-11-16 00:38:54.726 +03:00 [DBG] Connection id "0HNH4HTG15DMO" accepted.
+2025-11-16 00:38:54.728 +03:00 [DBG] Connection id "0HNH4HTG15DMO" started.
+2025-11-16 00:38:54.734 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 00:38:54.934 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 00:38:54.958 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 00:38:54.961 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:38:55.036 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 00:38:55.038 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 00:38:55.057 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 00:38:55.060 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 00:38:55.062 +03:00 [DBG] Connection id "0HNH4HTG15DMN" completed keep alive response.
+2025-11-16 00:38:55.067 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 347.333ms
+2025-11-16 00:38:55.082 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 00:38:55.082 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 00:38:55.089 +03:00 [DBG] Connection id "0HNH4HTG15DMN" completed keep alive response.
+2025-11-16 00:38:55.091 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.8759ms
+2025-11-16 00:38:55.152 +03:00 [DBG] Connection id "0HNH4HTG15DMO" completed keep alive response.
+2025-11-16 00:38:55.154 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.2337ms
+2025-11-16 00:38:55.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 00:38:55.194 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 00:38:55.195 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:38:55.219 +03:00 [DBG] Connection id "0HNH4HTG15DMO" completed keep alive response.
+2025-11-16 00:38:55.221 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.1497ms
+2025-11-16 00:38:55.800 +03:00 [DBG] Connection id "0HNH4HTG15DMN" received FIN.
+2025-11-16 00:38:55.800 +03:00 [DBG] Connection id "0HNH4HTG15DMO" received FIN.
+2025-11-16 00:38:55.802 +03:00 [DBG] Connection id "0HNH4HTG15DMN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:38:55.803 +03:00 [DBG] Connection id "0HNH4HTG15DMO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:38:55.804 +03:00 [DBG] Connection id "0HNH4HTG15DMN" disconnecting.
+2025-11-16 00:38:55.805 +03:00 [DBG] Connection id "0HNH4HTG15DMO" disconnecting.
+2025-11-16 00:38:55.807 +03:00 [DBG] Connection id "0HNH4HTG15DMO" stopped.
+2025-11-16 00:38:55.813 +03:00 [DBG] Connection id "0HNH4HTG15DMN" stopped.
+2025-11-16 00:43:14.393 +03:00 [DBG] Connection id "0HNH4HTG15DMP" accepted.
+2025-11-16 00:43:14.399 +03:00 [DBG] Connection id "0HNH4HTG15DMP" started.
+2025-11-16 00:43:14.402 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13947
+2025-11-16 00:43:14.409 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 00:43:14.413 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 00:43:14.415 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:43:14.418 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 00:43:14.420 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 00:43:14.423 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:43:14.452 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 00:43:14.456 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 00:43:14.457 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 00:43:14.458 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 00:43:14.460 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 00:43:14.461 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 00:43:14.464 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:43:14.617 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:43:14.623 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:43:14.625 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 00:43:14.628 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 00:43:14.646 +03:00 [DBG] Connection id "0HNH4HTG15DMP", Request id "0HNH4HTG15DMP:00000001": started reading request body.
+2025-11-16 00:43:14.648 +03:00 [DBG] Connection id "0HNH4HTG15DMP", Request id "0HNH4HTG15DMP:00000001": done reading request body.
+2025-11-16 00:43:14.678 +03:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.Guid. Path: $.pages[0].elements[12].childrenIds[2] | LineNumber: 212 | BytePositionInLine: 50.
+2025-11-16 00:43:14.680 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:43:14.681 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:43:14.682 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:43:14.688 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:43:14.691 +03:00 [DBG] The request has model state errors, returning an error response.
+2025-11-16 00:43:14.693 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-11-16 00:43:14.696 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 00:43:14.700 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 00:43:14.701 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-11-16 00:43:14.705 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-11-16 00:43:14.707 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-16 00:43:14.730 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 265.2338ms
+2025-11-16 00:43:14.731 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:43:14.732 +03:00 [DBG] Connection id "0HNH4HTG15DMP" completed keep alive response.
+2025-11-16 00:43:14.733 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 400 null application/problem+json; charset=utf-8 330.9991ms
+2025-11-16 00:43:16.187 +03:00 [DBG] Connection id "0HNH4HTG15DMP" received FIN.
+2025-11-16 00:43:16.189 +03:00 [DBG] Connection id "0HNH4HTG15DMP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:43:16.191 +03:00 [DBG] Connection id "0HNH4HTG15DMP" disconnecting.
+2025-11-16 00:43:16.200 +03:00 [DBG] Connection id "0HNH4HTG15DMP" stopped.
+2025-11-16 00:46:07.680 +03:00 [DBG] Connection id "0HNH4HTG15DMQ" accepted.
+2025-11-16 00:46:07.686 +03:00 [DBG] Connection id "0HNH4HTG15DMQ" started.
+2025-11-16 00:46:07.688 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13947
+2025-11-16 00:46:07.690 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 00:46:07.691 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 00:46:07.692 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:46:07.693 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 00:46:07.694 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:46:07.695 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 00:46:07.697 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 00:46:07.698 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 00:46:07.699 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 00:46:07.701 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 00:46:07.702 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 00:46:07.703 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:46:07.704 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:46:07.711 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:46:07.712 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 00:46:07.713 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 00:46:07.714 +03:00 [DBG] Connection id "0HNH4HTG15DMQ", Request id "0HNH4HTG15DMQ:00000001": started reading request body.
+2025-11-16 00:46:07.715 +03:00 [DBG] Connection id "0HNH4HTG15DMQ", Request id "0HNH4HTG15DMQ:00000001": done reading request body.
+2025-11-16 00:46:07.721 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 00:46:07.722 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:46:07.723 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:46:07.724 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:46:07.739 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:46:07.847 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 00:46:07.849 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 00:46:07.850 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-16 00:46:07.850 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-16 00:46:07.851 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-16 00:46:07.852 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-16 00:46:07.858 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 154.9898ms
+2025-11-16 00:46:07.859 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:46:07.860 +03:00 [DBG] Connection id "0HNH4HTG15DMQ" completed keep alive response.
+2025-11-16 00:46:07.861 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 200 null application/json; charset=utf-8 173.1474ms
+2025-11-16 00:46:16.517 +03:00 [DBG] Connection id "0HNH4HTG15DMQ" received FIN.
+2025-11-16 00:46:16.519 +03:00 [DBG] Connection id "0HNH4HTG15DMQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:46:16.520 +03:00 [DBG] Connection id "0HNH4HTG15DMQ" disconnecting.
+2025-11-16 00:46:16.521 +03:00 [DBG] Connection id "0HNH4HTG15DMQ" stopped.
+2025-11-16 00:49:00.732 +03:00 [DBG] Connection id "0HNH4HTG15DMR" accepted.
+2025-11-16 00:49:00.734 +03:00 [DBG] Connection id "0HNH4HTG15DMR" started.
+2025-11-16 00:49:00.773 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 00:49:00.779 +03:00 [DBG] Connection id "0HNH4HTG15DMS" accepted.
+2025-11-16 00:49:00.780 +03:00 [DBG] Connection id "0HNH4HTG15DMS" started.
+2025-11-16 00:49:00.793 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 00:49:00.794 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:49:00.797 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 00:49:00.797 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 00:49:00.799 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 00:49:00.799 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 00:49:00.800 +03:00 [DBG] Connection id "0HNH4HTG15DMR" completed keep alive response.
+2025-11-16 00:49:00.801 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 27.8352ms
+2025-11-16 00:49:00.849 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 00:49:00.849 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 00:49:00.857 +03:00 [DBG] Connection id "0HNH4HTG15DMS" completed keep alive response.
+2025-11-16 00:49:00.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.3247ms
+2025-11-16 00:49:00.875 +03:00 [DBG] Connection id "0HNH4HTG15DMR" completed keep alive response.
+2025-11-16 00:49:00.876 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.2846ms
+2025-11-16 00:49:01.079 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 00:49:01.082 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 00:49:01.082 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 00:49:01.107 +03:00 [DBG] Connection id "0HNH4HTG15DMR" completed keep alive response.
+2025-11-16 00:49:01.108 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.8681ms
+2025-11-16 00:49:13.940 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13947
+2025-11-16 00:49:13.942 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 00:49:13.944 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 00:49:13.946 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:49:13.946 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 00:49:13.947 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:49:13.952 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 00:49:13.954 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 00:49:13.955 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 00:49:13.956 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 00:49:13.957 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 00:49:13.958 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 00:49:13.959 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:49:13.962 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 00:49:13.963 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:49:13.964 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 00:49:13.965 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 00:49:13.968 +03:00 [DBG] Connection id "0HNH4HTG15DMR", Request id "0HNH4HTG15DMR:00000004": started reading request body.
+2025-11-16 00:49:13.969 +03:00 [DBG] Connection id "0HNH4HTG15DMR", Request id "0HNH4HTG15DMR:00000004": done reading request body.
+2025-11-16 00:49:13.972 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 00:49:13.973 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:49:13.974 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:49:13.975 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 00:49:13.978 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 00:49:13.984 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 00:49:13.987 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 00:49:13.988 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-16 00:49:13.988 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-16 00:49:13.989 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-16 00:49:13.991 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-16 00:49:13.993 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 33.8784ms
+2025-11-16 00:49:13.995 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 00:49:13.996 +03:00 [DBG] Connection id "0HNH4HTG15DMR" completed keep alive response.
+2025-11-16 00:49:13.997 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 200 null application/json; charset=utf-8 57.0517ms
+2025-11-16 00:49:41.810 +03:00 [DBG] Connection id "0HNH4HTG15DMS" received FIN.
+2025-11-16 00:49:41.811 +03:00 [DBG] Connection id "0HNH4HTG15DMR" received FIN.
+2025-11-16 00:49:41.827 +03:00 [DBG] Connection id "0HNH4HTG15DMS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:49:41.839 +03:00 [DBG] Connection id "0HNH4HTG15DMR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 00:49:41.856 +03:00 [DBG] Connection id "0HNH4HTG15DMS" disconnecting.
+2025-11-16 00:49:41.870 +03:00 [DBG] Connection id "0HNH4HTG15DMR" disconnecting.
+2025-11-16 00:49:41.870 +03:00 [DBG] Connection id "0HNH4HTG15DMS" stopped.
+2025-11-16 00:49:41.871 +03:00 [DBG] Connection id "0HNH4HTG15DMR" stopped.
+2025-11-16 04:02:08.480 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 04:02:08.578 +03:00 [DBG] Hosting starting
+2025-11-16 04:02:08.726 +03:00 [DBG] Connection id "0HNH4LF27BT9A" received FIN.
+2025-11-16 04:02:08.726 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 04:02:08.728 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 04:02:08.729 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 04:02:08.730 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 04:02:08.731 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 04:02:08.732 +03:00 [DBG] Connection id "0HNH4LF27BT9A" accepted.
+2025-11-16 04:02:08.733 +03:00 [DBG] Connection id "0HNH4LF27BT9A" started.
+2025-11-16 04:02:08.739 +03:00 [DBG] Connection id "0HNH4LF27BT9A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:02:08.741 +03:00 [DBG] Connection id "0HNH4LF27BT9A" disconnecting.
+2025-11-16 04:02:08.746 +03:00 [DBG] Connection id "0HNH4LF27BT9A" stopped.
+2025-11-16 04:02:08.801 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 04:02:08.803 +03:00 [INF] Hosting environment: Development
+2025-11-16 04:02:08.804 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 04:02:08.805 +03:00 [DBG] Hosting started
+2025-11-16 04:02:08.963 +03:00 [DBG] Connection id "0HNH4LF27BT9B" accepted.
+2025-11-16 04:02:08.964 +03:00 [DBG] Connection id "0HNH4LF27BT9B" started.
+2025-11-16 04:02:09.062 +03:00 [DBG] Connection id "0HNH4LF27BT9C" accepted.
+2025-11-16 04:02:09.063 +03:00 [DBG] Connection id "0HNH4LF27BT9C" started.
+2025-11-16 04:02:09.067 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 04:02:09.230 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 04:02:09.256 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 04:02:09.258 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:02:09.311 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 04:02:09.313 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 04:02:09.329 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 04:02:09.330 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 04:02:09.331 +03:00 [DBG] Connection id "0HNH4LF27BT9B" completed keep alive response.
+2025-11-16 04:02:09.334 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 278.2083ms
+2025-11-16 04:02:09.350 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 04:02:09.350 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 04:02:09.357 +03:00 [DBG] Connection id "0HNH4LF27BT9B" completed keep alive response.
+2025-11-16 04:02:09.358 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.8649ms
+2025-11-16 04:02:09.398 +03:00 [DBG] Connection id "0HNH4LF27BT9C" completed keep alive response.
+2025-11-16 04:02:09.400 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.5482ms
+2025-11-16 04:02:09.509 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 04:02:09.512 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 04:02:09.513 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:02:09.532 +03:00 [DBG] Connection id "0HNH4LF27BT9C" completed keep alive response.
+2025-11-16 04:02:09.534 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.9898ms
+2025-11-16 04:02:14.141 +03:00 [DBG] Connection id "0HNH4LF27BT9C" received FIN.
+2025-11-16 04:02:14.142 +03:00 [DBG] Connection id "0HNH4LF27BT9B" received FIN.
+2025-11-16 04:02:14.143 +03:00 [DBG] Connection id "0HNH4LF27BT9C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:02:14.144 +03:00 [DBG] Connection id "0HNH4LF27BT9B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:02:14.145 +03:00 [DBG] Connection id "0HNH4LF27BT9C" disconnecting.
+2025-11-16 04:02:14.154 +03:00 [DBG] Connection id "0HNH4LF27BT9B" disconnecting.
+2025-11-16 04:02:14.156 +03:00 [DBG] Connection id "0HNH4LF27BT9C" stopped.
+2025-11-16 04:02:14.158 +03:00 [DBG] Connection id "0HNH4LF27BT9B" stopped.
+2025-11-16 04:02:19.934 +03:00 [DBG] Connection id "0HNH4LF27BT9D" accepted.
+2025-11-16 04:02:19.935 +03:00 [DBG] Connection id "0HNH4LF27BT9D" started.
+2025-11-16 04:02:19.939 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13947
+2025-11-16 04:02:19.950 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 04:02:19.955 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 04:02:19.957 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:02:19.961 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 04:02:19.963 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 04:02:19.966 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:02:19.993 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 04:02:19.996 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 04:02:19.998 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 04:02:19.999 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 04:02:20.001 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 04:02:20.002 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 04:02:20.004 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:02:20.166 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:02:20.171 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:02:20.174 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 04:02:20.177 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 04:02:20.194 +03:00 [DBG] Connection id "0HNH4LF27BT9D", Request id "0HNH4LF27BT9D:00000001": started reading request body.
+2025-11-16 04:02:20.196 +03:00 [DBG] Connection id "0HNH4LF27BT9D", Request id "0HNH4LF27BT9D:00000001": done reading request body.
+2025-11-16 04:02:20.223 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 04:02:20.225 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:02:20.226 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:02:20.227 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:02:20.245 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:02:20.525 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 04:02:20.529 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 04:02:20.530 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-16 04:02:20.530 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-16 04:02:20.532 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-16 04:02:20.534 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-16 04:02:20.546 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 539.9008ms
+2025-11-16 04:02:20.547 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:02:20.549 +03:00 [DBG] Connection id "0HNH4LF27BT9D" completed keep alive response.
+2025-11-16 04:02:20.550 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 200 null application/json; charset=utf-8 611.8705ms
+2025-11-16 04:02:26.779 +03:00 [DBG] Connection id "0HNH4LF27BT9D" received FIN.
+2025-11-16 04:02:26.781 +03:00 [DBG] Connection id "0HNH4LF27BT9D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:02:26.782 +03:00 [DBG] Connection id "0HNH4LF27BT9D" disconnecting.
+2025-11-16 04:02:26.784 +03:00 [DBG] Connection id "0HNH4LF27BT9D" stopped.
+2025-11-16 04:23:05.027 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 04:23:05.107 +03:00 [DBG] Hosting starting
+2025-11-16 04:23:05.261 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 04:23:05.262 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 04:23:05.264 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 04:23:05.264 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 04:23:05.265 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 04:23:05.341 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 04:23:05.343 +03:00 [INF] Hosting environment: Development
+2025-11-16 04:23:05.344 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 04:23:05.345 +03:00 [DBG] Hosting started
+2025-11-16 04:23:05.540 +03:00 [DBG] Connection id "0HNH4LQOP8U0T" received FIN.
+2025-11-16 04:23:05.545 +03:00 [DBG] Connection id "0HNH4LQOP8U0T" accepted.
+2025-11-16 04:23:05.546 +03:00 [DBG] Connection id "0HNH4LQOP8U0T" started.
+2025-11-16 04:23:05.553 +03:00 [DBG] Connection id "0HNH4LQOP8U0T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:23:05.556 +03:00 [DBG] Connection id "0HNH4LQOP8U0T" disconnecting.
+2025-11-16 04:23:05.560 +03:00 [DBG] Connection id "0HNH4LQOP8U0T" stopped.
+2025-11-16 04:23:05.764 +03:00 [DBG] Connection id "0HNH4LQOP8U0U" accepted.
+2025-11-16 04:23:05.766 +03:00 [DBG] Connection id "0HNH4LQOP8U0U" started.
+2025-11-16 04:23:05.865 +03:00 [DBG] Connection id "0HNH4LQOP8U0V" accepted.
+2025-11-16 04:23:05.866 +03:00 [DBG] Connection id "0HNH4LQOP8U0V" started.
+2025-11-16 04:23:05.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 04:23:06.082 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 04:23:06.109 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 04:23:06.112 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:23:06.223 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 04:23:06.228 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 04:23:06.244 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 04:23:06.245 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 04:23:06.246 +03:00 [DBG] Connection id "0HNH4LQOP8U0U" completed keep alive response.
+2025-11-16 04:23:06.249 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 394.3845ms
+2025-11-16 04:23:06.265 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 04:23:06.265 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 04:23:06.272 +03:00 [DBG] Connection id "0HNH4LQOP8U0U" completed keep alive response.
+2025-11-16 04:23:06.277 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.7079ms
+2025-11-16 04:23:06.324 +03:00 [DBG] Connection id "0HNH4LQOP8U0V" completed keep alive response.
+2025-11-16 04:23:06.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.9493ms
+2025-11-16 04:23:06.359 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 04:23:06.361 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 04:23:06.362 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:23:06.389 +03:00 [DBG] Connection id "0HNH4LQOP8U0V" completed keep alive response.
+2025-11-16 04:23:06.391 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.3473ms
+2025-11-16 04:23:15.843 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13947
+2025-11-16 04:23:15.858 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 04:23:15.865 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 04:23:15.868 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:23:15.872 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 04:23:15.874 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 04:23:15.876 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:23:15.906 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 04:23:15.910 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 04:23:15.911 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 04:23:15.912 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 04:23:15.913 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 04:23:15.914 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 04:23:15.917 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:23:16.074 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:23:16.081 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:23:16.085 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 04:23:16.087 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 04:23:16.103 +03:00 [DBG] Connection id "0HNH4LQOP8U0V", Request id "0HNH4LQOP8U0V:00000003": started reading request body.
+2025-11-16 04:23:16.106 +03:00 [DBG] Connection id "0HNH4LQOP8U0V", Request id "0HNH4LQOP8U0V:00000003": done reading request body.
+2025-11-16 04:23:16.138 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 04:23:16.140 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:23:16.141 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:23:16.142 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:23:16.164 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:36:03.418 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 04:36:03.492 +03:00 [DBG] Hosting starting
+2025-11-16 04:36:03.626 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 04:36:03.629 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 04:36:03.630 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 04:36:03.630 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 04:36:03.631 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 04:36:03.689 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 04:36:03.691 +03:00 [INF] Hosting environment: Development
+2025-11-16 04:36:03.692 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 04:36:03.692 +03:00 [DBG] Hosting started
+2025-11-16 04:36:03.745 +03:00 [DBG] Connection id "0HNH4M20MQ6DE" accepted.
+2025-11-16 04:36:03.748 +03:00 [DBG] Connection id "0HNH4M20MQ6DE" started.
+2025-11-16 04:36:03.769 +03:00 [DBG] Connection id "0HNH4M20MQ6DF" received FIN.
+2025-11-16 04:36:03.769 +03:00 [DBG] Connection id "0HNH4M20MQ6DE" received FIN.
+2025-11-16 04:36:03.772 +03:00 [DBG] Connection id "0HNH4M20MQ6DF" accepted.
+2025-11-16 04:36:03.781 +03:00 [DBG] Connection id "0HNH4M20MQ6DF" started.
+2025-11-16 04:36:03.783 +03:00 [DBG] Connection id "0HNH4M20MQ6DE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:36:03.783 +03:00 [DBG] Connection id "0HNH4M20MQ6DF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:36:03.788 +03:00 [DBG] Connection id "0HNH4M20MQ6DE" disconnecting.
+2025-11-16 04:36:03.788 +03:00 [DBG] Connection id "0HNH4M20MQ6DF" disconnecting.
+2025-11-16 04:36:03.790 +03:00 [DBG] Connection id "0HNH4M20MQ6DE" stopped.
+2025-11-16 04:36:03.790 +03:00 [DBG] Connection id "0HNH4M20MQ6DF" stopped.
+2025-11-16 04:36:04.005 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" accepted.
+2025-11-16 04:36:04.007 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" started.
+2025-11-16 04:36:04.099 +03:00 [DBG] Connection id "0HNH4M20MQ6DH" accepted.
+2025-11-16 04:36:04.101 +03:00 [DBG] Connection id "0HNH4M20MQ6DH" started.
+2025-11-16 04:36:04.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 04:36:04.308 +03:00 [DBG] Connection id "0HNH4M20MQ6DH" received FIN.
+2025-11-16 04:36:04.318 +03:00 [DBG] Connection id "0HNH4M20MQ6DH" disconnecting.
+2025-11-16 04:36:04.320 +03:00 [DBG] Connection id "0HNH4M20MQ6DH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:36:04.325 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 04:36:04.329 +03:00 [DBG] Connection id "0HNH4M20MQ6DH" stopped.
+2025-11-16 04:36:04.350 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 04:36:04.351 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:36:04.412 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 04:36:04.414 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 04:36:04.432 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 04:36:04.434 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 04:36:04.435 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" completed keep alive response.
+2025-11-16 04:36:04.439 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 342.8975ms
+2025-11-16 04:36:04.452 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 04:36:04.462 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" completed keep alive response.
+2025-11-16 04:36:04.463 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" accepted.
+2025-11-16 04:36:04.465 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 12.7769ms
+2025-11-16 04:36:04.466 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" started.
+2025-11-16 04:36:04.471 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 04:36:04.507 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" completed keep alive response.
+2025-11-16 04:36:04.509 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.255ms
+2025-11-16 04:36:04.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 04:36:04.543 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 04:36:04.545 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:36:04.577 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" completed keep alive response.
+2025-11-16 04:36:04.580 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.6232ms
+2025-11-16 04:36:14.324 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" received FIN.
+2025-11-16 04:36:14.325 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" received FIN.
+2025-11-16 04:36:14.326 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:36:14.326 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:36:14.328 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" disconnecting.
+2025-11-16 04:36:14.329 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" disconnecting.
+2025-11-16 04:36:14.330 +03:00 [DBG] Connection id "0HNH4M20MQ6DI" stopped.
+2025-11-16 04:36:14.342 +03:00 [DBG] Connection id "0HNH4M20MQ6DG" stopped.
+2025-11-16 04:36:14.344 +03:00 [DBG] Connection id "0HNH4M20MQ6DJ" accepted.
+2025-11-16 04:36:14.345 +03:00 [DBG] Connection id "0HNH4M20MQ6DJ" started.
+2025-11-16 04:36:14.348 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13947
+2025-11-16 04:36:14.355 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 04:36:14.361 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 04:36:14.363 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:36:14.369 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 04:36:14.372 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 04:36:14.375 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:36:14.404 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 04:36:14.408 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 04:36:14.409 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 04:36:14.410 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 04:36:14.412 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 04:36:14.414 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 04:36:14.416 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:36:14.588 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:36:14.593 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:36:14.596 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 04:36:14.598 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 04:36:14.615 +03:00 [DBG] Connection id "0HNH4M20MQ6DJ", Request id "0HNH4M20MQ6DJ:00000001": started reading request body.
+2025-11-16 04:36:14.617 +03:00 [DBG] Connection id "0HNH4M20MQ6DJ", Request id "0HNH4M20MQ6DJ:00000001": done reading request body.
+2025-11-16 04:36:14.642 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 04:36:14.644 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:36:14.645 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:36:14.646 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:36:14.663 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:41:52.594 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 04:41:52.666 +03:00 [DBG] Hosting starting
+2025-11-16 04:41:52.806 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 04:41:52.807 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 04:41:52.808 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 04:41:52.809 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 04:41:52.810 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 04:41:52.871 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 04:41:52.872 +03:00 [INF] Hosting environment: Development
+2025-11-16 04:41:52.874 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 04:41:52.874 +03:00 [DBG] Hosting started
+2025-11-16 04:41:53.060 +03:00 [DBG] Connection id "0HNH4M58Q4QIL" accepted.
+2025-11-16 04:41:53.063 +03:00 [DBG] Connection id "0HNH4M58Q4QIL" started.
+2025-11-16 04:41:53.072 +03:00 [DBG] Connection id "0HNH4M58Q4QIL" received FIN.
+2025-11-16 04:41:53.072 +03:00 [DBG] Connection id "0HNH4M58Q4QIM" received FIN.
+2025-11-16 04:41:53.076 +03:00 [DBG] Connection id "0HNH4M58Q4QIM" accepted.
+2025-11-16 04:41:53.088 +03:00 [DBG] Connection id "0HNH4M58Q4QIM" started.
+2025-11-16 04:41:53.090 +03:00 [DBG] Connection id "0HNH4M58Q4QIL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:41:53.090 +03:00 [DBG] Connection id "0HNH4M58Q4QIM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:41:53.096 +03:00 [DBG] Connection id "0HNH4M58Q4QIL" disconnecting.
+2025-11-16 04:41:53.096 +03:00 [DBG] Connection id "0HNH4M58Q4QIM" disconnecting.
+2025-11-16 04:41:53.099 +03:00 [DBG] Connection id "0HNH4M58Q4QIL" stopped.
+2025-11-16 04:41:53.099 +03:00 [DBG] Connection id "0HNH4M58Q4QIM" stopped.
+2025-11-16 04:41:53.487 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" accepted.
+2025-11-16 04:41:53.488 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" started.
+2025-11-16 04:41:53.588 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" accepted.
+2025-11-16 04:41:53.590 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" started.
+2025-11-16 04:41:53.607 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 04:41:53.787 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 04:41:53.813 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 04:41:53.816 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:41:53.875 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 04:41:53.877 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 04:41:53.888 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 04:41:53.889 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 04:41:53.891 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" completed keep alive response.
+2025-11-16 04:41:53.900 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 303.9019ms
+2025-11-16 04:41:53.901 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 04:41:53.910 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 04:41:53.919 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" completed keep alive response.
+2025-11-16 04:41:53.926 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.3305ms
+2025-11-16 04:41:53.946 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" completed keep alive response.
+2025-11-16 04:41:53.947 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.9902ms
+2025-11-16 04:41:53.980 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 04:41:53.983 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 04:41:53.984 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 04:41:54.026 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" completed keep alive response.
+2025-11-16 04:41:54.028 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.6814ms
+2025-11-16 04:41:56.969 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" received FIN.
+2025-11-16 04:41:56.969 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" received FIN.
+2025-11-16 04:41:56.971 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:41:56.971 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:41:56.972 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" disconnecting.
+2025-11-16 04:41:56.973 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" disconnecting.
+2025-11-16 04:41:56.975 +03:00 [DBG] Connection id "0HNH4M58Q4QIO" stopped.
+2025-11-16 04:41:56.977 +03:00 [DBG] Connection id "0HNH4M58Q4QIN" stopped.
+2025-11-16 04:42:03.807 +03:00 [DBG] Connection id "0HNH4M58Q4QIP" accepted.
+2025-11-16 04:42:03.809 +03:00 [DBG] Connection id "0HNH4M58Q4QIP" started.
+2025-11-16 04:42:03.811 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 13947
+2025-11-16 04:42:03.819 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 04:42:03.824 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 04:42:03.827 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:42:03.832 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 04:42:03.834 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 04:42:03.837 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:42:03.865 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 04:42:03.868 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 04:42:03.869 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 04:42:03.871 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 04:42:03.873 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 04:42:03.874 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 04:42:03.876 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:42:04.022 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 04:42:04.029 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:42:04.033 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 04:42:04.036 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 04:42:04.054 +03:00 [DBG] Connection id "0HNH4M58Q4QIP", Request id "0HNH4M58Q4QIP:00000001": started reading request body.
+2025-11-16 04:42:04.055 +03:00 [DBG] Connection id "0HNH4M58Q4QIP", Request id "0HNH4M58Q4QIP:00000001": done reading request body.
+2025-11-16 04:42:04.086 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 04:42:04.088 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:42:04.089 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:42:04.090 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 04:42:04.111 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 04:42:04.251 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 04:42:04.255 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 04:42:04.256 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-16 04:42:04.257 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-16 04:42:04.259 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-16 04:42:04.261 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-16 04:42:04.273 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 396.0294ms
+2025-11-16 04:42:04.275 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 04:42:04.276 +03:00 [DBG] Connection id "0HNH4M58Q4QIP" completed keep alive response.
+2025-11-16 04:42:04.276 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 200 null application/json; charset=utf-8 465.0527ms
+2025-11-16 04:42:06.985 +03:00 [DBG] Connection id "0HNH4M58Q4QIP" received FIN.
+2025-11-16 04:42:06.987 +03:00 [DBG] Connection id "0HNH4M58Q4QIP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 04:42:06.988 +03:00 [DBG] Connection id "0HNH4M58Q4QIP" disconnecting.
+2025-11-16 04:42:06.989 +03:00 [DBG] Connection id "0HNH4M58Q4QIP" stopped.
+2025-11-16 06:32:01.852 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:32:01.934 +03:00 [DBG] Hosting starting
+2025-11-16 06:32:02.078 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:32:02.079 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:32:02.080 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:32:02.081 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:32:02.081 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:32:02.110 +03:00 [DBG] Connection id "0HNH4O2QEUN0Q" accepted.
+2025-11-16 06:32:02.111 +03:00 [DBG] Connection id "0HNH4O2QEUN0Q" started.
+2025-11-16 06:32:02.125 +03:00 [DBG] Connection id "0HNH4O2QEUN0R" received FIN.
+2025-11-16 06:32:02.125 +03:00 [DBG] Connection id "0HNH4O2QEUN0Q" received FIN.
+2025-11-16 06:32:02.127 +03:00 [DBG] Connection id "0HNH4O2QEUN0R" accepted.
+2025-11-16 06:32:02.135 +03:00 [DBG] Connection id "0HNH4O2QEUN0R" started.
+2025-11-16 06:32:02.136 +03:00 [DBG] Connection id "0HNH4O2QEUN0R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:32:02.136 +03:00 [DBG] Connection id "0HNH4O2QEUN0Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:32:02.139 +03:00 [DBG] Connection id "0HNH4O2QEUN0R" disconnecting.
+2025-11-16 06:32:02.139 +03:00 [DBG] Connection id "0HNH4O2QEUN0Q" disconnecting.
+2025-11-16 06:32:02.149 +03:00 [DBG] Connection id "0HNH4O2QEUN0R" stopped.
+2025-11-16 06:32:02.149 +03:00 [DBG] Connection id "0HNH4O2QEUN0Q" stopped.
+2025-11-16 06:32:02.167 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:32:02.169 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:32:02.170 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:32:02.171 +03:00 [DBG] Hosting started
+2025-11-16 06:32:02.373 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" accepted.
+2025-11-16 06:32:02.374 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" started.
+2025-11-16 06:32:02.486 +03:00 [DBG] Connection id "0HNH4O2QEUN0T" accepted.
+2025-11-16 06:32:02.487 +03:00 [DBG] Connection id "0HNH4O2QEUN0T" started.
+2025-11-16 06:32:02.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:32:02.675 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:32:02.702 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:32:02.704 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:32:02.757 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:32:02.760 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:32:02.774 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:32:02.776 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:32:02.778 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" completed keep alive response.
+2025-11-16 06:32:02.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 301.9565ms
+2025-11-16 06:32:02.796 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:32:02.803 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" completed keep alive response.
+2025-11-16 06:32:02.805 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.1123ms
+2025-11-16 06:32:02.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:32:02.856 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" completed keep alive response.
+2025-11-16 06:32:02.857 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.8666ms
+2025-11-16 06:32:02.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:32:02.895 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:32:02.896 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:32:02.918 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" completed keep alive response.
+2025-11-16 06:32:02.920 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.8068ms
+2025-11-16 06:32:09.620 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" received FIN.
+2025-11-16 06:32:09.620 +03:00 [DBG] Connection id "0HNH4O2QEUN0T" received FIN.
+2025-11-16 06:32:09.626 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" disconnecting.
+2025-11-16 06:32:09.627 +03:00 [DBG] Connection id "0HNH4O2QEUN0T" disconnecting.
+2025-11-16 06:32:09.629 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:32:09.630 +03:00 [DBG] Connection id "0HNH4O2QEUN0T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:32:09.647 +03:00 [DBG] Connection id "0HNH4O2QEUN0S" stopped.
+2025-11-16 06:32:09.647 +03:00 [DBG] Connection id "0HNH4O2QEUN0T" stopped.
+2025-11-16 06:33:16.484 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:33:16.567 +03:00 [DBG] Hosting starting
+2025-11-16 06:33:16.704 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:33:16.705 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:33:16.706 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:33:16.708 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:33:16.709 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:33:16.776 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:33:16.778 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:33:16.779 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:33:16.781 +03:00 [DBG] Hosting started
+2025-11-16 06:33:16.851 +03:00 [DBG] Connection id "0HNH4O3GNNVVL" accepted.
+2025-11-16 06:33:16.854 +03:00 [DBG] Connection id "0HNH4O3GNNVVL" started.
+2025-11-16 06:33:16.866 +03:00 [DBG] Connection id "0HNH4O3GNNVVM" accepted.
+2025-11-16 06:33:16.868 +03:00 [DBG] Connection id "0HNH4O3GNNVVM" started.
+2025-11-16 06:33:16.892 +03:00 [DBG] Connection id "0HNH4O3GNNVVL" received FIN.
+2025-11-16 06:33:16.892 +03:00 [DBG] Connection id "0HNH4O3GNNVVM" received FIN.
+2025-11-16 06:33:16.909 +03:00 [DBG] Connection id "0HNH4O3GNNVVL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:33:16.909 +03:00 [DBG] Connection id "0HNH4O3GNNVVM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:33:16.914 +03:00 [DBG] Connection id "0HNH4O3GNNVVL" disconnecting.
+2025-11-16 06:33:16.914 +03:00 [DBG] Connection id "0HNH4O3GNNVVM" disconnecting.
+2025-11-16 06:33:16.925 +03:00 [DBG] Connection id "0HNH4O3GNNVVL" stopped.
+2025-11-16 06:33:16.925 +03:00 [DBG] Connection id "0HNH4O3GNNVVM" stopped.
+2025-11-16 06:33:17.189 +03:00 [DBG] Connection id "0HNH4O3GNNVVN" accepted.
+2025-11-16 06:33:17.190 +03:00 [DBG] Connection id "0HNH4O3GNNVVN" started.
+2025-11-16 06:33:17.293 +03:00 [DBG] Connection id "0HNH4O3GNNVVO" accepted.
+2025-11-16 06:33:17.295 +03:00 [DBG] Connection id "0HNH4O3GNNVVO" started.
+2025-11-16 06:33:17.306 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:33:17.463 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:33:17.499 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:33:17.504 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:33:17.562 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:33:17.564 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:33:17.593 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:33:17.598 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:33:17.602 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" accepted.
+2025-11-16 06:33:17.610 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:33:17.616 +03:00 [DBG] Connection id "0HNH4O3GNNVVN" completed keep alive response.
+2025-11-16 06:33:17.622 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" started.
+2025-11-16 06:33:17.640 +03:00 [DBG] Connection id "0HNH4O3GNNVVO" completed keep alive response.
+2025-11-16 06:33:17.640 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:33:17.644 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 353.1023ms
+2025-11-16 06:33:17.644 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 35.9371ms
+2025-11-16 06:33:17.713 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" completed keep alive response.
+2025-11-16 06:33:17.715 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.0453ms
+2025-11-16 06:33:17.764 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:33:17.767 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:33:17.768 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:33:17.800 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" completed keep alive response.
+2025-11-16 06:33:17.803 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.3557ms
+2025-11-16 06:33:24.307 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" received FIN.
+2025-11-16 06:33:24.307 +03:00 [DBG] Connection id "0HNH4O3GNNVVN" received FIN.
+2025-11-16 06:33:24.307 +03:00 [DBG] Connection id "0HNH4O3GNNVVO" received FIN.
+2025-11-16 06:33:24.313 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:33:24.317 +03:00 [DBG] Connection id "0HNH4O3GNNVVN" disconnecting.
+2025-11-16 06:33:24.320 +03:00 [DBG] Connection id "0HNH4O3GNNVVO" disconnecting.
+2025-11-16 06:33:24.327 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" disconnecting.
+2025-11-16 06:33:24.330 +03:00 [DBG] Connection id "0HNH4O3GNNVVN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:33:24.332 +03:00 [DBG] Connection id "0HNH4O3GNNVVO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:33:24.333 +03:00 [DBG] Connection id "0HNH4O3GNNVVP" stopped.
+2025-11-16 06:33:24.351 +03:00 [DBG] Connection id "0HNH4O3GNNVVN" stopped.
+2025-11-16 06:33:24.351 +03:00 [DBG] Connection id "0HNH4O3GNNVVO" stopped.
+2025-11-16 06:34:29.623 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:34:29.777 +03:00 [DBG] Hosting starting
+2025-11-16 06:34:29.900 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:34:29.903 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:34:29.905 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:34:29.906 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:34:29.906 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:34:29.974 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:34:29.977 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:34:29.978 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:34:29.980 +03:00 [DBG] Hosting started
+2025-11-16 06:34:30.372 +03:00 [DBG] Connection id "0HNH4O46KSP9K" received FIN.
+2025-11-16 06:34:30.372 +03:00 [DBG] Connection id "0HNH4O46KSP9L" received FIN.
+2025-11-16 06:34:30.379 +03:00 [DBG] Connection id "0HNH4O46KSP9L" accepted.
+2025-11-16 06:34:30.379 +03:00 [DBG] Connection id "0HNH4O46KSP9K" accepted.
+2025-11-16 06:34:30.381 +03:00 [DBG] Connection id "0HNH4O46KSP9L" started.
+2025-11-16 06:34:30.381 +03:00 [DBG] Connection id "0HNH4O46KSP9K" started.
+2025-11-16 06:34:30.387 +03:00 [DBG] Connection id "0HNH4O46KSP9L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:34:30.387 +03:00 [DBG] Connection id "0HNH4O46KSP9K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:34:30.390 +03:00 [DBG] Connection id "0HNH4O46KSP9L" disconnecting.
+2025-11-16 06:34:30.390 +03:00 [DBG] Connection id "0HNH4O46KSP9K" disconnecting.
+2025-11-16 06:34:30.393 +03:00 [DBG] Connection id "0HNH4O46KSP9K" stopped.
+2025-11-16 06:34:30.393 +03:00 [DBG] Connection id "0HNH4O46KSP9L" stopped.
+2025-11-16 06:34:30.478 +03:00 [DBG] Connection id "0HNH4O46KSP9M" accepted.
+2025-11-16 06:34:30.480 +03:00 [DBG] Connection id "0HNH4O46KSP9M" started.
+2025-11-16 06:34:30.580 +03:00 [DBG] Connection id "0HNH4O46KSP9N" accepted.
+2025-11-16 06:34:30.582 +03:00 [DBG] Connection id "0HNH4O46KSP9N" started.
+2025-11-16 06:34:30.589 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:34:30.805 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:34:30.829 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:34:30.832 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:34:30.895 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:34:30.897 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:34:30.920 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:34:30.922 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:34:30.934 +03:00 [DBG] Connection id "0HNH4O46KSP9M" completed keep alive response.
+2025-11-16 06:34:30.940 +03:00 [DBG] Connection id "0HNH4O46KSP9O" accepted.
+2025-11-16 06:34:30.945 +03:00 [DBG] Connection id "0HNH4O46KSP9O" started.
+2025-11-16 06:34:30.948 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:34:30.948 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 378.7119ms
+2025-11-16 06:34:30.949 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:34:30.959 +03:00 [DBG] Connection id "0HNH4O46KSP9N" completed keep alive response.
+2025-11-16 06:34:30.965 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 18.6357ms
+2025-11-16 06:34:31.027 +03:00 [DBG] Connection id "0HNH4O46KSP9O" completed keep alive response.
+2025-11-16 06:34:31.029 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.3083ms
+2025-11-16 06:34:31.064 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:34:31.067 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:34:31.068 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:34:31.108 +03:00 [DBG] Connection id "0HNH4O46KSP9O" completed keep alive response.
+2025-11-16 06:34:31.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.6781ms
+2025-11-16 06:34:40.236 +03:00 [DBG] Connection id "0HNH4O46KSP9M" received FIN.
+2025-11-16 06:34:40.236 +03:00 [DBG] Connection id "0HNH4O46KSP9N" received FIN.
+2025-11-16 06:34:40.236 +03:00 [DBG] Connection id "0HNH4O46KSP9O" received FIN.
+2025-11-16 06:34:40.238 +03:00 [DBG] Connection id "0HNH4O46KSP9M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:34:40.240 +03:00 [DBG] Connection id "0HNH4O46KSP9N" disconnecting.
+2025-11-16 06:34:40.254 +03:00 [DBG] Connection id "0HNH4O46KSP9M" disconnecting.
+2025-11-16 06:34:40.253 +03:00 [DBG] Connection id "0HNH4O46KSP9O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:34:40.261 +03:00 [DBG] Connection id "0HNH4O46KSP9N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:34:40.262 +03:00 [DBG] Connection id "0HNH4O46KSP9M" stopped.
+2025-11-16 06:34:40.263 +03:00 [DBG] Connection id "0HNH4O46KSP9O" disconnecting.
+2025-11-16 06:34:40.265 +03:00 [DBG] Connection id "0HNH4O46KSP9O" stopped.
+2025-11-16 06:34:40.266 +03:00 [DBG] Connection id "0HNH4O46KSP9N" stopped.
+2025-11-16 06:35:31.566 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:35:31.634 +03:00 [DBG] Hosting starting
+2025-11-16 06:35:31.742 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:35:31.743 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:35:31.744 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:35:31.744 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:35:31.745 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:35:31.813 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:35:31.815 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:35:31.816 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:35:31.816 +03:00 [DBG] Hosting started
+2025-11-16 06:35:31.970 +03:00 [DBG] Connection id "0HNH4O4P0ATSD" accepted.
+2025-11-16 06:35:31.973 +03:00 [DBG] Connection id "0HNH4O4P0ATSD" started.
+2025-11-16 06:35:31.974 +03:00 [DBG] Connection id "0HNH4O4P0ATSE" accepted.
+2025-11-16 06:35:31.977 +03:00 [DBG] Connection id "0HNH4O4P0ATSE" started.
+2025-11-16 06:35:31.997 +03:00 [DBG] Connection id "0HNH4O4P0ATSE" received FIN.
+2025-11-16 06:35:31.997 +03:00 [DBG] Connection id "0HNH4O4P0ATSD" received FIN.
+2025-11-16 06:35:32.010 +03:00 [DBG] Connection id "0HNH4O4P0ATSE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:35:32.010 +03:00 [DBG] Connection id "0HNH4O4P0ATSD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:35:32.013 +03:00 [DBG] Connection id "0HNH4O4P0ATSE" disconnecting.
+2025-11-16 06:35:32.014 +03:00 [DBG] Connection id "0HNH4O4P0ATSD" disconnecting.
+2025-11-16 06:35:32.022 +03:00 [DBG] Connection id "0HNH4O4P0ATSE" stopped.
+2025-11-16 06:35:32.022 +03:00 [DBG] Connection id "0HNH4O4P0ATSD" stopped.
+2025-11-16 06:35:32.108 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" accepted.
+2025-11-16 06:35:32.109 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" started.
+2025-11-16 06:35:32.192 +03:00 [DBG] Connection id "0HNH4O4P0ATSG" accepted.
+2025-11-16 06:35:32.194 +03:00 [DBG] Connection id "0HNH4O4P0ATSG" started.
+2025-11-16 06:35:32.201 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:35:32.379 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:35:32.399 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:35:32.401 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:35:32.464 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:35:32.466 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:35:32.477 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:35:32.479 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:35:32.480 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" completed keep alive response.
+2025-11-16 06:35:32.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:35:32.483 +03:00 [DBG] Connection id "0HNH4O4P0ATSH" accepted.
+2025-11-16 06:35:32.485 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 301.1911ms
+2025-11-16 06:35:32.486 +03:00 [DBG] Connection id "0HNH4O4P0ATSH" started.
+2025-11-16 06:35:32.489 +03:00 [DBG] Connection id "0HNH4O4P0ATSG" completed keep alive response.
+2025-11-16 06:35:32.493 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:35:32.493 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.8144ms
+2025-11-16 06:35:32.518 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" completed keep alive response.
+2025-11-16 06:35:32.520 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.3484ms
+2025-11-16 06:35:32.556 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:35:32.558 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:35:32.559 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:35:32.580 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" completed keep alive response.
+2025-11-16 06:35:32.583 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.7571ms
+2025-11-16 06:35:35.315 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" received FIN.
+2025-11-16 06:35:35.315 +03:00 [DBG] Connection id "0HNH4O4P0ATSH" received FIN.
+2025-11-16 06:35:35.315 +03:00 [DBG] Connection id "0HNH4O4P0ATSG" received FIN.
+2025-11-16 06:35:35.317 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:35:35.318 +03:00 [DBG] Connection id "0HNH4O4P0ATSH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:35:35.320 +03:00 [DBG] Connection id "0HNH4O4P0ATSG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:35:35.321 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" disconnecting.
+2025-11-16 06:35:35.330 +03:00 [DBG] Connection id "0HNH4O4P0ATSH" disconnecting.
+2025-11-16 06:35:35.331 +03:00 [DBG] Connection id "0HNH4O4P0ATSG" disconnecting.
+2025-11-16 06:35:35.331 +03:00 [DBG] Connection id "0HNH4O4P0ATSF" stopped.
+2025-11-16 06:35:35.332 +03:00 [DBG] Connection id "0HNH4O4P0ATSH" stopped.
+2025-11-16 06:35:35.335 +03:00 [DBG] Connection id "0HNH4O4P0ATSG" stopped.
+2025-11-16 06:41:09.822 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" accepted.
+2025-11-16 06:41:09.831 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" started.
+2025-11-16 06:41:09.834 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 22199
+2025-11-16 06:41:09.841 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 06:41:09.845 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 06:41:09.848 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:41:09.851 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 06:41:09.853 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 06:41:09.856 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:41:09.886 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 06:41:09.889 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 06:41:09.891 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 06:41:09.893 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 06:41:09.894 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 06:41:09.896 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 06:41:09.900 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 06:41:10.110 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 06:41:10.116 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 06:41:10.120 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 06:41:10.123 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 06:41:10.142 +03:00 [DBG] Connection id "0HNH4O4P0ATSI", Request id "0HNH4O4P0ATSI:00000001": started reading request body.
+2025-11-16 06:41:10.143 +03:00 [DBG] Connection id "0HNH4O4P0ATSI", Request id "0HNH4O4P0ATSI:00000001": done reading request body.
+2025-11-16 06:41:10.176 +03:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.Guid. Path: $.pages[0].styleRules[1].styleRuleId | LineNumber: 343 | BytePositionInLine: 63.
+2025-11-16 06:41:10.178 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:41:10.180 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:41:10.181 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 06:41:10.189 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:41:10.192 +03:00 [DBG] The request has model state errors, returning an error response.
+2025-11-16 06:41:10.193 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-11-16 06:41:10.195 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 06:41:10.198 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 06:41:10.199 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-11-16 06:41:10.201 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-11-16 06:41:10.202 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-16 06:41:10.224 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 323.5394ms
+2025-11-16 06:41:10.226 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:41:10.227 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" completed keep alive response.
+2025-11-16 06:41:10.229 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 400 null application/problem+json; charset=utf-8 395.3855ms
+2025-11-16 06:45:09.971 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 22199
+2025-11-16 06:45:09.976 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 06:45:09.976 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 06:45:09.977 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:45:09.978 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 06:45:09.979 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:45:09.980 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 06:45:09.981 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 06:45:09.982 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 06:45:09.983 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 06:45:09.984 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 06:45:09.986 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 06:45:09.988 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 06:45:09.989 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 06:45:09.990 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 06:45:09.991 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 06:45:09.992 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 06:45:09.993 +03:00 [DBG] Connection id "0HNH4O4P0ATSI", Request id "0HNH4O4P0ATSI:00000002": started reading request body.
+2025-11-16 06:45:09.994 +03:00 [DBG] Connection id "0HNH4O4P0ATSI", Request id "0HNH4O4P0ATSI:00000002": done reading request body.
+2025-11-16 06:45:09.997 +03:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.Guid. Path: $.pages[0].styleRules[1].styleRuleId | LineNumber: 343 | BytePositionInLine: 63.
+2025-11-16 06:45:09.998 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:45:09.998 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:45:09.999 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 06:45:10.000 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:45:10.002 +03:00 [DBG] The request has model state errors, returning an error response.
+2025-11-16 06:45:10.002 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-11-16 06:45:10.003 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 06:45:10.005 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 06:45:10.005 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-11-16 06:45:10.007 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-11-16 06:45:10.009 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-16 06:45:10.010 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 22.6409ms
+2025-11-16 06:45:10.012 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:45:10.012 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" completed keep alive response.
+2025-11-16 06:45:10.013 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 400 null application/problem+json; charset=utf-8 47.8651ms
+2025-11-16 06:45:41.597 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" received FIN.
+2025-11-16 06:45:41.608 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" disconnecting.
+2025-11-16 06:45:41.615 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:45:41.619 +03:00 [DBG] Connection id "0HNH4O4P0ATSI" stopped.
+2025-11-16 06:45:46.570 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:45:46.659 +03:00 [DBG] Hosting starting
+2025-11-16 06:45:46.803 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:45:46.803 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:45:46.804 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:45:46.805 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:45:46.806 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:45:46.871 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:45:46.872 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:45:46.873 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:45:46.873 +03:00 [DBG] Hosting started
+2025-11-16 06:45:46.984 +03:00 [DBG] Connection id "0HNH4OAG9IF8V" accepted.
+2025-11-16 06:45:46.987 +03:00 [DBG] Connection id "0HNH4OAG9IF8V" started.
+2025-11-16 06:45:47.008 +03:00 [DBG] Connection id "0HNH4OAG9IF90" accepted.
+2025-11-16 06:45:47.009 +03:00 [DBG] Connection id "0HNH4OAG9IF90" started.
+2025-11-16 06:45:47.025 +03:00 [DBG] Connection id "0HNH4OAG9IF8V" received FIN.
+2025-11-16 06:45:47.025 +03:00 [DBG] Connection id "0HNH4OAG9IF90" received FIN.
+2025-11-16 06:45:47.035 +03:00 [DBG] Connection id "0HNH4OAG9IF8V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:45:47.035 +03:00 [DBG] Connection id "0HNH4OAG9IF90" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:45:47.037 +03:00 [DBG] Connection id "0HNH4OAG9IF8V" disconnecting.
+2025-11-16 06:45:47.037 +03:00 [DBG] Connection id "0HNH4OAG9IF90" disconnecting.
+2025-11-16 06:45:47.045 +03:00 [DBG] Connection id "0HNH4OAG9IF90" stopped.
+2025-11-16 06:45:47.045 +03:00 [DBG] Connection id "0HNH4OAG9IF8V" stopped.
+2025-11-16 06:45:47.244 +03:00 [DBG] Connection id "0HNH4OAG9IF91" accepted.
+2025-11-16 06:45:47.246 +03:00 [DBG] Connection id "0HNH4OAG9IF91" started.
+2025-11-16 06:45:47.359 +03:00 [DBG] Connection id "0HNH4OAG9IF92" accepted.
+2025-11-16 06:45:47.361 +03:00 [DBG] Connection id "0HNH4OAG9IF92" started.
+2025-11-16 06:45:47.372 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:45:47.562 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:45:47.582 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:45:47.584 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:45:47.640 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:45:47.642 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:45:47.657 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:45:47.658 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:45:47.660 +03:00 [DBG] Connection id "0HNH4OAG9IF91" completed keep alive response.
+2025-11-16 06:45:47.662 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:45:47.667 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 311.1399ms
+2025-11-16 06:45:47.671 +03:00 [DBG] Connection id "0HNH4OAG9IF92" completed keep alive response.
+2025-11-16 06:45:47.683 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 21.567ms
+2025-11-16 06:45:47.684 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:45:47.738 +03:00 [DBG] Connection id "0HNH4OAG9IF91" completed keep alive response.
+2025-11-16 06:45:47.740 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.9633ms
+2025-11-16 06:45:47.782 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:45:47.786 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:45:47.789 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:45:47.850 +03:00 [DBG] Connection id "0HNH4OAG9IF91" completed keep alive response.
+2025-11-16 06:45:47.853 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.5409ms
+2025-11-16 06:45:51.834 +03:00 [DBG] Connection id "0HNH4OAG9IF92" received FIN.
+2025-11-16 06:45:51.834 +03:00 [DBG] Connection id "0HNH4OAG9IF91" received FIN.
+2025-11-16 06:45:51.838 +03:00 [DBG] Connection id "0HNH4OAG9IF92" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:45:51.839 +03:00 [DBG] Connection id "0HNH4OAG9IF91" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:45:51.840 +03:00 [DBG] Connection id "0HNH4OAG9IF92" disconnecting.
+2025-11-16 06:45:51.841 +03:00 [DBG] Connection id "0HNH4OAG9IF91" disconnecting.
+2025-11-16 06:45:51.843 +03:00 [DBG] Connection id "0HNH4OAG9IF91" stopped.
+2025-11-16 06:45:51.848 +03:00 [DBG] Connection id "0HNH4OAG9IF92" stopped.
+2025-11-16 06:46:06.791 +03:00 [DBG] Connection id "0HNH4OAG9IF93" accepted.
+2025-11-16 06:46:06.793 +03:00 [DBG] Connection id "0HNH4OAG9IF93" started.
+2025-11-16 06:46:06.796 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 22199
+2025-11-16 06:46:06.802 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 06:46:06.807 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 06:46:06.809 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:46:06.812 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 06:46:06.815 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 06:46:06.817 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:46:06.838 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 06:46:06.843 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 06:46:06.844 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 06:46:06.845 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 06:46:06.846 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 06:46:06.847 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 06:46:06.850 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 06:46:06.997 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 06:46:07.002 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 06:46:07.004 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 06:46:07.006 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 06:46:07.021 +03:00 [DBG] Connection id "0HNH4OAG9IF93", Request id "0HNH4OAG9IF93:00000001": started reading request body.
+2025-11-16 06:46:07.024 +03:00 [DBG] Connection id "0HNH4OAG9IF93", Request id "0HNH4OAG9IF93:00000001": done reading request body.
+2025-11-16 06:46:07.048 +03:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.Guid. Path: $.pages[0].styleRules[1].styleRuleId | LineNumber: 343 | BytePositionInLine: 63.
+2025-11-16 06:46:07.050 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:46:07.051 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:46:07.053 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 06:46:07.062 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 06:46:07.066 +03:00 [DBG] The request has model state errors, returning an error response.
+2025-11-16 06:46:07.067 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-11-16 06:46:07.069 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 06:46:07.074 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 06:46:07.075 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-11-16 06:46:07.076 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-11-16 06:46:07.078 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-16 06:46:07.099 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 248.7189ms
+2025-11-16 06:46:07.102 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 06:46:07.103 +03:00 [DBG] Connection id "0HNH4OAG9IF93" completed keep alive response.
+2025-11-16 06:46:07.104 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 400 null application/problem+json; charset=utf-8 308.1543ms
+2025-11-16 06:46:11.860 +03:00 [DBG] Connection id "0HNH4OAG9IF93" received FIN.
+2025-11-16 06:46:11.862 +03:00 [DBG] Connection id "0HNH4OAG9IF93" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:46:11.864 +03:00 [DBG] Connection id "0HNH4OAG9IF93" disconnecting.
+2025-11-16 06:46:11.864 +03:00 [DBG] Connection id "0HNH4OAG9IF93" stopped.
+2025-11-16 06:48:39.495 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:48:39.571 +03:00 [DBG] Hosting starting
+2025-11-16 06:48:39.684 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:48:39.685 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:48:39.686 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:48:39.687 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:48:39.688 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:48:39.703 +03:00 [DBG] Connection id "0HNH4OC3OO4N3" received FIN.
+2025-11-16 06:48:39.712 +03:00 [DBG] Connection id "0HNH4OC3OO4N3" accepted.
+2025-11-16 06:48:39.715 +03:00 [DBG] Connection id "0HNH4OC3OO4N3" started.
+2025-11-16 06:48:39.723 +03:00 [DBG] Connection id "0HNH4OC3OO4N3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:48:39.728 +03:00 [DBG] Connection id "0HNH4OC3OO4N3" disconnecting.
+2025-11-16 06:48:39.734 +03:00 [DBG] Connection id "0HNH4OC3OO4N3" stopped.
+2025-11-16 06:48:39.797 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:48:39.799 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:48:39.801 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:48:39.803 +03:00 [DBG] Hosting started
+2025-11-16 06:48:39.870 +03:00 [DBG] Connection id "0HNH4OC3OO4N4" accepted.
+2025-11-16 06:48:39.872 +03:00 [DBG] Connection id "0HNH4OC3OO4N4" started.
+2025-11-16 06:48:39.996 +03:00 [DBG] Connection id "0HNH4OC3OO4N5" accepted.
+2025-11-16 06:48:40.011 +03:00 [DBG] Connection id "0HNH4OC3OO4N5" started.
+2025-11-16 06:48:40.040 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:48:40.194 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:48:40.231 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:48:40.234 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:48:40.290 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:48:40.292 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:48:40.309 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:48:40.311 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:48:40.313 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" accepted.
+2025-11-16 06:48:40.314 +03:00 [DBG] Connection id "0HNH4OC3OO4N4" completed keep alive response.
+2025-11-16 06:48:40.314 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:48:40.315 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" started.
+2025-11-16 06:48:40.320 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 345.0484ms
+2025-11-16 06:48:40.322 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:48:40.325 +03:00 [DBG] Connection id "0HNH4OC3OO4N5" completed keep alive response.
+2025-11-16 06:48:40.335 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 20.8176ms
+2025-11-16 06:48:40.373 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" completed keep alive response.
+2025-11-16 06:48:40.375 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.414ms
+2025-11-16 06:48:40.423 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:48:40.427 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:48:40.429 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:48:40.480 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" completed keep alive response.
+2025-11-16 06:48:40.483 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.8743ms
+2025-11-16 06:48:40.927 +03:00 [DBG] Connection id "0HNH4OC3OO4N5" received FIN.
+2025-11-16 06:48:40.927 +03:00 [DBG] Connection id "0HNH4OC3OO4N4" received FIN.
+2025-11-16 06:48:40.927 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" received FIN.
+2025-11-16 06:48:40.929 +03:00 [DBG] Connection id "0HNH4OC3OO4N5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:48:40.932 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:48:40.942 +03:00 [DBG] Connection id "0HNH4OC3OO4N5" disconnecting.
+2025-11-16 06:48:40.931 +03:00 [DBG] Connection id "0HNH4OC3OO4N4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:48:40.951 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" disconnecting.
+2025-11-16 06:48:40.959 +03:00 [DBG] Connection id "0HNH4OC3OO4N4" disconnecting.
+2025-11-16 06:48:40.959 +03:00 [DBG] Connection id "0HNH4OC3OO4N5" stopped.
+2025-11-16 06:48:40.960 +03:00 [DBG] Connection id "0HNH4OC3OO4N6" stopped.
+2025-11-16 06:48:40.963 +03:00 [DBG] Connection id "0HNH4OC3OO4N4" stopped.
+2025-11-16 06:50:10.497 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:50:10.590 +03:00 [DBG] Hosting starting
+2025-11-16 06:50:10.739 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:50:10.741 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:50:10.742 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:50:10.743 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:50:10.743 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:50:10.799 +03:00 [DBG] Connection id "0HNH4OCUTGBPA" accepted.
+2025-11-16 06:50:10.799 +03:00 [DBG] Connection id "0HNH4OCUTGBP9" accepted.
+2025-11-16 06:50:10.801 +03:00 [DBG] Connection id "0HNH4OCUTGBPA" started.
+2025-11-16 06:50:10.802 +03:00 [DBG] Connection id "0HNH4OCUTGBP9" started.
+2025-11-16 06:50:10.804 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:50:10.812 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:50:10.813 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:50:10.814 +03:00 [DBG] Hosting started
+2025-11-16 06:50:10.827 +03:00 [DBG] Connection id "0HNH4OCUTGBP9" received FIN.
+2025-11-16 06:50:10.827 +03:00 [DBG] Connection id "0HNH4OCUTGBPA" received FIN.
+2025-11-16 06:50:10.841 +03:00 [DBG] Connection id "0HNH4OCUTGBPA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:50:10.841 +03:00 [DBG] Connection id "0HNH4OCUTGBP9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:50:10.844 +03:00 [DBG] Connection id "0HNH4OCUTGBPA" disconnecting.
+2025-11-16 06:50:10.844 +03:00 [DBG] Connection id "0HNH4OCUTGBP9" disconnecting.
+2025-11-16 06:50:10.854 +03:00 [DBG] Connection id "0HNH4OCUTGBP9" stopped.
+2025-11-16 06:50:10.854 +03:00 [DBG] Connection id "0HNH4OCUTGBPA" stopped.
+2025-11-16 06:50:11.162 +03:00 [DBG] Connection id "0HNH4OCUTGBPB" accepted.
+2025-11-16 06:50:11.163 +03:00 [DBG] Connection id "0HNH4OCUTGBPB" started.
+2025-11-16 06:50:11.279 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" accepted.
+2025-11-16 06:50:11.281 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" started.
+2025-11-16 06:50:11.292 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:50:11.523 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:50:11.552 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:50:11.554 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:50:11.638 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:50:11.641 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:50:11.658 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:50:11.665 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:50:11.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:50:11.668 +03:00 [DBG] Connection id "0HNH4OCUTGBPD" accepted.
+2025-11-16 06:50:11.676 +03:00 [DBG] Connection id "0HNH4OCUTGBPB" completed keep alive response.
+2025-11-16 06:50:11.702 +03:00 [DBG] Connection id "0HNH4OCUTGBPD" started.
+2025-11-16 06:50:11.713 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:50:11.714 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 443.3592ms
+2025-11-16 06:50:11.724 +03:00 [DBG] Connection id "0HNH4OCUTGBPD" completed keep alive response.
+2025-11-16 06:50:11.729 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 15.4628ms
+2025-11-16 06:50:11.752 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" completed keep alive response.
+2025-11-16 06:50:11.756 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.8485ms
+2025-11-16 06:50:11.798 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:50:11.801 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:50:11.803 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:50:11.845 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" completed keep alive response.
+2025-11-16 06:50:11.848 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.5424ms
+2025-11-16 06:50:19.894 +03:00 [DBG] Connection id "0HNH4OCUTGBPB" received FIN.
+2025-11-16 06:50:19.894 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" received FIN.
+2025-11-16 06:50:19.894 +03:00 [DBG] Connection id "0HNH4OCUTGBPD" received FIN.
+2025-11-16 06:50:19.898 +03:00 [DBG] Connection id "0HNH4OCUTGBPB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:50:19.899 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:50:19.902 +03:00 [DBG] Connection id "0HNH4OCUTGBPD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:50:19.904 +03:00 [DBG] Connection id "0HNH4OCUTGBPB" disconnecting.
+2025-11-16 06:50:19.905 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" disconnecting.
+2025-11-16 06:50:19.906 +03:00 [DBG] Connection id "0HNH4OCUTGBPD" disconnecting.
+2025-11-16 06:50:19.907 +03:00 [DBG] Connection id "0HNH4OCUTGBPB" stopped.
+2025-11-16 06:50:19.907 +03:00 [DBG] Connection id "0HNH4OCUTGBPC" stopped.
+2025-11-16 06:50:19.922 +03:00 [DBG] Connection id "0HNH4OCUTGBPD" stopped.
+2025-11-16 06:51:06.055 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 06:51:06.117 +03:00 [DBG] Hosting starting
+2025-11-16 06:51:06.235 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 06:51:06.236 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 06:51:06.237 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 06:51:06.238 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 06:51:06.238 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 06:51:06.308 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 06:51:06.309 +03:00 [INF] Hosting environment: Development
+2025-11-16 06:51:06.310 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 06:51:06.311 +03:00 [DBG] Hosting started
+2025-11-16 06:51:06.504 +03:00 [DBG] Connection id "0HNH4ODFGNR2I" accepted.
+2025-11-16 06:51:06.505 +03:00 [DBG] Connection id "0HNH4ODFGNR2J" accepted.
+2025-11-16 06:51:06.508 +03:00 [DBG] Connection id "0HNH4ODFGNR2I" started.
+2025-11-16 06:51:06.510 +03:00 [DBG] Connection id "0HNH4ODFGNR2J" started.
+2025-11-16 06:51:06.541 +03:00 [DBG] Connection id "0HNH4ODFGNR2J" received FIN.
+2025-11-16 06:51:06.541 +03:00 [DBG] Connection id "0HNH4ODFGNR2I" received FIN.
+2025-11-16 06:51:06.555 +03:00 [DBG] Connection id "0HNH4ODFGNR2I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:51:06.555 +03:00 [DBG] Connection id "0HNH4ODFGNR2J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:51:06.558 +03:00 [DBG] Connection id "0HNH4ODFGNR2I" disconnecting.
+2025-11-16 06:51:06.558 +03:00 [DBG] Connection id "0HNH4ODFGNR2J" disconnecting.
+2025-11-16 06:51:06.567 +03:00 [DBG] Connection id "0HNH4ODFGNR2I" stopped.
+2025-11-16 06:51:06.567 +03:00 [DBG] Connection id "0HNH4ODFGNR2J" stopped.
+2025-11-16 06:51:06.646 +03:00 [DBG] Connection id "0HNH4ODFGNR2K" accepted.
+2025-11-16 06:51:06.648 +03:00 [DBG] Connection id "0HNH4ODFGNR2K" started.
+2025-11-16 06:51:06.728 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" accepted.
+2025-11-16 06:51:06.731 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" started.
+2025-11-16 06:51:06.734 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 06:51:06.907 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 06:51:06.939 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 06:51:06.942 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:51:07.014 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 06:51:07.018 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 06:51:07.044 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 06:51:07.046 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 06:51:07.048 +03:00 [DBG] Connection id "0HNH4ODFGNR2K" completed keep alive response.
+2025-11-16 06:51:07.049 +03:00 [DBG] Connection id "0HNH4ODFGNR2M" accepted.
+2025-11-16 06:51:07.050 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 06:51:07.052 +03:00 [DBG] Connection id "0HNH4ODFGNR2M" started.
+2025-11-16 06:51:07.053 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 330.2375ms
+2025-11-16 06:51:07.058 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 06:51:07.073 +03:00 [DBG] Connection id "0HNH4ODFGNR2M" completed keep alive response.
+2025-11-16 06:51:07.075 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.6572ms
+2025-11-16 06:51:07.099 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" completed keep alive response.
+2025-11-16 06:51:07.101 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.3422ms
+2025-11-16 06:51:07.163 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 06:51:07.168 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 06:51:07.169 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 06:51:07.219 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" completed keep alive response.
+2025-11-16 06:51:07.221 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.8249ms
+2025-11-16 06:51:16.115 +03:00 [DBG] Connection id "0HNH4ODFGNR2M" received FIN.
+2025-11-16 06:51:16.115 +03:00 [DBG] Connection id "0HNH4ODFGNR2K" received FIN.
+2025-11-16 06:51:16.115 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" received FIN.
+2025-11-16 06:51:16.117 +03:00 [DBG] Connection id "0HNH4ODFGNR2M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:51:16.119 +03:00 [DBG] Connection id "0HNH4ODFGNR2K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:51:16.120 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" disconnecting.
+2025-11-16 06:51:16.129 +03:00 [DBG] Connection id "0HNH4ODFGNR2M" disconnecting.
+2025-11-16 06:51:16.130 +03:00 [DBG] Connection id "0HNH4ODFGNR2K" disconnecting.
+2025-11-16 06:51:16.132 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 06:51:16.134 +03:00 [DBG] Connection id "0HNH4ODFGNR2K" stopped.
+2025-11-16 06:51:16.134 +03:00 [DBG] Connection id "0HNH4ODFGNR2M" stopped.
+2025-11-16 06:51:16.150 +03:00 [DBG] Connection id "0HNH4ODFGNR2L" stopped.
+2025-11-16 07:10:27.525 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 07:10:27.611 +03:00 [DBG] Hosting starting
+2025-11-16 07:10:27.761 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 07:10:27.762 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 07:10:27.762 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 07:10:27.763 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 07:10:27.763 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 07:10:27.820 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 07:10:27.822 +03:00 [INF] Hosting environment: Development
+2025-11-16 07:10:27.822 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 07:10:27.823 +03:00 [DBG] Hosting started
+2025-11-16 07:10:27.953 +03:00 [DBG] Connection id "0HNH4OO9L6BCT" received FIN.
+2025-11-16 07:10:27.960 +03:00 [DBG] Connection id "0HNH4OO9L6BCT" accepted.
+2025-11-16 07:10:27.962 +03:00 [DBG] Connection id "0HNH4OO9L6BCT" started.
+2025-11-16 07:10:27.969 +03:00 [DBG] Connection id "0HNH4OO9L6BCT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:10:27.972 +03:00 [DBG] Connection id "0HNH4OO9L6BCT" disconnecting.
+2025-11-16 07:10:27.976 +03:00 [DBG] Connection id "0HNH4OO9L6BCT" stopped.
+2025-11-16 07:10:28.089 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" accepted.
+2025-11-16 07:10:28.091 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" started.
+2025-11-16 07:10:28.186 +03:00 [DBG] Connection id "0HNH4OO9L6BCV" accepted.
+2025-11-16 07:10:28.188 +03:00 [DBG] Connection id "0HNH4OO9L6BCV" started.
+2025-11-16 07:10:28.201 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 07:10:28.207 +03:00 [DBG] Connection id "0HNH4OO9L6BCV" received FIN.
+2025-11-16 07:10:28.211 +03:00 [DBG] Connection id "0HNH4OO9L6BCV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:10:28.213 +03:00 [DBG] Connection id "0HNH4OO9L6BCV" disconnecting.
+2025-11-16 07:10:28.216 +03:00 [DBG] Connection id "0HNH4OO9L6BCV" stopped.
+2025-11-16 07:10:28.417 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 07:10:28.446 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 07:10:28.448 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 07:10:28.496 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 07:10:28.499 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 07:10:28.515 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 07:10:28.517 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 07:10:28.519 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" completed keep alive response.
+2025-11-16 07:10:28.520 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" accepted.
+2025-11-16 07:10:28.522 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" started.
+2025-11-16 07:10:28.524 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 07:10:28.526 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 340.3865ms
+2025-11-16 07:10:28.535 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 07:10:28.549 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" completed keep alive response.
+2025-11-16 07:10:28.551 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 15.8107ms
+2025-11-16 07:10:28.570 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" completed keep alive response.
+2025-11-16 07:10:28.572 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.9617ms
+2025-11-16 07:10:28.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 07:10:28.624 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 07:10:28.625 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 07:10:28.653 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" completed keep alive response.
+2025-11-16 07:10:28.655 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.3294ms
+2025-11-16 07:10:38.222 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" received FIN.
+2025-11-16 07:10:38.222 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" received FIN.
+2025-11-16 07:10:38.230 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:10:38.231 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" disconnecting.
+2025-11-16 07:10:38.236 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" disconnecting.
+2025-11-16 07:10:38.237 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:10:38.248 +03:00 [DBG] Connection id "0HNH4OO9L6BCU" stopped.
+2025-11-16 07:10:38.248 +03:00 [DBG] Connection id "0HNH4OO9L6BD0" stopped.
+2025-11-16 07:11:26.574 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-16 07:11:26.643 +03:00 [DBG] Hosting starting
+2025-11-16 07:11:26.749 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-16 07:11:26.751 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-16 07:11:26.752 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-16 07:11:26.753 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-16 07:11:26.754 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-16 07:11:26.813 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-16 07:11:26.815 +03:00 [INF] Hosting environment: Development
+2025-11-16 07:11:26.816 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-16 07:11:26.817 +03:00 [DBG] Hosting started
+2025-11-16 07:11:27.057 +03:00 [DBG] Connection id "0HNH4OOR8RE87" received FIN.
+2025-11-16 07:11:27.057 +03:00 [DBG] Connection id "0HNH4OOR8RE88" received FIN.
+2025-11-16 07:11:27.063 +03:00 [DBG] Connection id "0HNH4OOR8RE87" accepted.
+2025-11-16 07:11:27.063 +03:00 [DBG] Connection id "0HNH4OOR8RE88" accepted.
+2025-11-16 07:11:27.064 +03:00 [DBG] Connection id "0HNH4OOR8RE87" started.
+2025-11-16 07:11:27.064 +03:00 [DBG] Connection id "0HNH4OOR8RE88" started.
+2025-11-16 07:11:27.069 +03:00 [DBG] Connection id "0HNH4OOR8RE88" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:11:27.069 +03:00 [DBG] Connection id "0HNH4OOR8RE87" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:11:27.072 +03:00 [DBG] Connection id "0HNH4OOR8RE88" disconnecting.
+2025-11-16 07:11:27.072 +03:00 [DBG] Connection id "0HNH4OOR8RE87" disconnecting.
+2025-11-16 07:11:27.076 +03:00 [DBG] Connection id "0HNH4OOR8RE88" stopped.
+2025-11-16 07:11:27.076 +03:00 [DBG] Connection id "0HNH4OOR8RE87" stopped.
+2025-11-16 07:11:27.195 +03:00 [DBG] Connection id "0HNH4OOR8RE89" accepted.
+2025-11-16 07:11:27.196 +03:00 [DBG] Connection id "0HNH4OOR8RE89" started.
+2025-11-16 07:11:27.288 +03:00 [DBG] Connection id "0HNH4OOR8RE8A" accepted.
+2025-11-16 07:11:27.289 +03:00 [DBG] Connection id "0HNH4OOR8RE8A" started.
+2025-11-16 07:11:27.292 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-16 07:11:27.442 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-16 07:11:27.485 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-16 07:11:27.487 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 07:11:27.548 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-16 07:11:27.550 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-16 07:11:27.560 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-16 07:11:27.563 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-16 07:11:27.565 +03:00 [DBG] Connection id "0HNH4OOR8RE89" completed keep alive response.
+2025-11-16 07:11:27.567 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-16 07:11:27.570 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 288.753ms
+2025-11-16 07:11:27.575 +03:00 [DBG] Connection id "0HNH4OOR8RE8A" completed keep alive response.
+2025-11-16 07:11:27.578 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.8982ms
+2025-11-16 07:11:27.579 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-16 07:11:27.672 +03:00 [DBG] Connection id "0HNH4OOR8RE89" completed keep alive response.
+2025-11-16 07:11:27.674 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.8142ms
+2025-11-16 07:11:27.713 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-16 07:11:27.716 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-16 07:11:27.718 +03:00 [DBG] Request did not match any endpoints
+2025-11-16 07:11:27.756 +03:00 [DBG] Connection id "0HNH4OOR8RE89" completed keep alive response.
+2025-11-16 07:11:27.759 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.368ms
+2025-11-16 07:11:28.659 +03:00 [DBG] Connection id "0HNH4OOR8RE89" received FIN.
+2025-11-16 07:11:28.659 +03:00 [DBG] Connection id "0HNH4OOR8RE8A" received FIN.
+2025-11-16 07:11:28.661 +03:00 [DBG] Connection id "0HNH4OOR8RE89" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:11:28.662 +03:00 [DBG] Connection id "0HNH4OOR8RE8A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:11:28.664 +03:00 [DBG] Connection id "0HNH4OOR8RE89" disconnecting.
+2025-11-16 07:11:28.676 +03:00 [DBG] Connection id "0HNH4OOR8RE8A" disconnecting.
+2025-11-16 07:11:28.679 +03:00 [DBG] Connection id "0HNH4OOR8RE89" stopped.
+2025-11-16 07:11:28.683 +03:00 [DBG] Connection id "0HNH4OOR8RE8A" stopped.
+2025-11-16 07:13:28.901 +03:00 [DBG] Connection id "0HNH4OOR8RE8B" accepted.
+2025-11-16 07:13:28.909 +03:00 [DBG] Connection id "0HNH4OOR8RE8B" started.
+2025-11-16 07:13:28.911 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - application/json 7365
+2025-11-16 07:13:28.917 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Exports/download-zip'
+2025-11-16 07:13:28.921 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)' with route pattern 'api/Exports/download-zip' is valid for the request path '/api/Exports/download-zip'
+2025-11-16 07:13:28.923 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 07:13:28.927 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-16 07:13:28.928 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-16 07:13:28.931 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 07:13:28.961 +03:00 [INF] Route matched with {action = "DownloadZip", controller = "Exports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadZip(Application.ViewModel.GenerationRequest.GenerateRequest) on controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API).
+2025-11-16 07:13:28.965 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-16 07:13:28.967 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-16 07:13:28.968 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-16 07:13:28.969 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-16 07:13:28.970 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-16 07:13:28.973 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 07:13:29.149 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.ExportsController (AutoMarkup.API)
+2025-11-16 07:13:29.158 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 07:13:29.163 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' using the name '' in request data ...
+2025-11-16 07:13:29.168 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-16 07:13:29.188 +03:00 [DBG] Connection id "0HNH4OOR8RE8B", Request id "0HNH4OOR8RE8B:00000001": started reading request body.
+2025-11-16 07:13:29.190 +03:00 [DBG] Connection id "0HNH4OOR8RE8B", Request id "0HNH4OOR8RE8B:00000001": done reading request body.
+2025-11-16 07:13:29.210 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.GenerationRequest.GenerateRequest'
+2025-11-16 07:13:29.213 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 07:13:29.214 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 07:13:29.215 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest' ...
+2025-11-16 07:13:29.234 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.GenerationRequest.GenerateRequest'.
+2025-11-16 07:13:29.338 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-16 07:13:29.342 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-11-16 07:13:29.343 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-16 07:13:29.344 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-16 07:13:29.345 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-11-16 07:13:29.346 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-11-16 07:13:29.353 +03:00 [INF] Executed action AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API) in 378.6135ms
+2025-11-16 07:13:29.356 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.ExportsController.DownloadZip (AutoMarkup.API)'
+2025-11-16 07:13:29.357 +03:00 [DBG] Connection id "0HNH4OOR8RE8B" completed keep alive response.
+2025-11-16 07:13:29.358 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Exports/download-zip - 400 null text/plain; charset=utf-8 447.6653ms
+2025-11-16 07:13:38.946 +03:00 [DBG] Connection id "0HNH4OOR8RE8B" received FIN.
+2025-11-16 07:13:38.954 +03:00 [DBG] Connection id "0HNH4OOR8RE8B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-16 07:13:38.955 +03:00 [DBG] Connection id "0HNH4OOR8RE8B" disconnecting.
+2025-11-16 07:13:38.962 +03:00 [DBG] Connection id "0HNH4OOR8RE8B" stopped.

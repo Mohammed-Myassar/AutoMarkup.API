@@ -1,0 +1,1363 @@
+2025-11-13 03:09:11.611 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-13 03:09:11.713 +03:00 [DBG] Hosting starting
+2025-11-13 03:09:11.897 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-13 03:09:11.898 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-13 03:09:11.899 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-13 03:09:11.899 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-13 03:09:11.900 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-13 03:09:11.972 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 03:09:11.973 +03:00 [INF] Hosting environment: Development
+2025-11-13 03:09:11.973 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-13 03:09:11.974 +03:00 [DBG] Hosting started
+2025-11-13 03:09:12.278 +03:00 [DBG] Connection id "0HNH293FUFFOI" accepted.
+2025-11-13 03:09:12.278 +03:00 [DBG] Connection id "0HNH293FUFFOH" accepted.
+2025-11-13 03:09:12.283 +03:00 [DBG] Connection id "0HNH293FUFFOH" started.
+2025-11-13 03:09:12.283 +03:00 [DBG] Connection id "0HNH293FUFFOI" started.
+2025-11-13 03:09:12.292 +03:00 [DBG] Connection id "0HNH293FUFFOI" received FIN.
+2025-11-13 03:09:12.292 +03:00 [DBG] Connection id "0HNH293FUFFOH" received FIN.
+2025-11-13 03:09:12.299 +03:00 [DBG] Connection id "0HNH293FUFFOI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:09:12.299 +03:00 [DBG] Connection id "0HNH293FUFFOH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:09:12.303 +03:00 [DBG] Connection id "0HNH293FUFFOI" disconnecting.
+2025-11-13 03:09:12.303 +03:00 [DBG] Connection id "0HNH293FUFFOH" disconnecting.
+2025-11-13 03:09:12.308 +03:00 [DBG] Connection id "0HNH293FUFFOI" stopped.
+2025-11-13 03:09:12.308 +03:00 [DBG] Connection id "0HNH293FUFFOH" stopped.
+2025-11-13 03:09:18.522 +03:00 [DBG] Connection id "0HNH293FUFFOJ" accepted.
+2025-11-13 03:09:18.524 +03:00 [DBG] Connection id "0HNH293FUFFOJ" started.
+2025-11-13 03:09:18.646 +03:00 [DBG] Connection id "0HNH293FUFFOK" accepted.
+2025-11-13 03:09:18.648 +03:00 [DBG] Connection id "0HNH293FUFFOK" started.
+2025-11-13 03:09:18.660 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-13 03:09:18.887 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-13 03:09:18.905 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-13 03:09:18.907 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:09:18.989 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-13 03:09:18.992 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-13 03:09:19.010 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-13 03:09:19.012 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-13 03:09:19.014 +03:00 [DBG] Connection id "0HNH293FUFFOJ" completed keep alive response.
+2025-11-13 03:09:19.017 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 375.7171ms
+2025-11-13 03:09:19.066 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 03:09:19.071 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-13 03:09:19.073 +03:00 [DBG] Connection id "0HNH293FUFFOJ" completed keep alive response.
+2025-11-13 03:09:19.075 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.4018ms
+2025-11-13 03:09:19.124 +03:00 [DBG] Connection id "0HNH293FUFFOK" completed keep alive response.
+2025-11-13 03:09:19.126 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.6221ms
+2025-11-13 03:09:19.175 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-13 03:09:19.177 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-13 03:09:19.178 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:09:19.196 +03:00 [DBG] Connection id "0HNH293FUFFOK" completed keep alive response.
+2025-11-13 03:09:19.197 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.9466ms
+2025-11-13 03:09:19.426 +03:00 [DBG] Connection id "0HNH293FUFFOJ" received FIN.
+2025-11-13 03:09:19.426 +03:00 [DBG] Connection id "0HNH293FUFFOK" received FIN.
+2025-11-13 03:09:19.428 +03:00 [DBG] Connection id "0HNH293FUFFOJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:09:19.429 +03:00 [DBG] Connection id "0HNH293FUFFOK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:09:19.431 +03:00 [DBG] Connection id "0HNH293FUFFOJ" disconnecting.
+2025-11-13 03:09:19.434 +03:00 [DBG] Connection id "0HNH293FUFFOK" disconnecting.
+2025-11-13 03:09:19.436 +03:00 [DBG] Connection id "0HNH293FUFFOK" stopped.
+2025-11-13 03:09:19.436 +03:00 [DBG] Connection id "0HNH293FUFFOJ" stopped.
+2025-11-13 03:23:34.341 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-13 03:23:34.604 +03:00 [DBG] Hosting starting
+2025-11-13 03:23:34.808 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-13 03:23:34.810 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-13 03:23:34.811 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-13 03:23:34.812 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-13 03:23:34.813 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-13 03:23:34.819 +03:00 [DBG] Connection id "0HNH29BH0CQ54" accepted.
+2025-11-13 03:23:34.829 +03:00 [DBG] Connection id "0HNH29BH0CQ54" started.
+2025-11-13 03:23:34.836 +03:00 [DBG] Connection id "0HNH29BH0CQ54" received FIN.
+2025-11-13 03:23:34.843 +03:00 [DBG] Connection id "0HNH29BH0CQ54" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:23:34.847 +03:00 [DBG] Connection id "0HNH29BH0CQ54" disconnecting.
+2025-11-13 03:23:34.853 +03:00 [DBG] Connection id "0HNH29BH0CQ54" stopped.
+2025-11-13 03:23:34.911 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 03:23:34.912 +03:00 [INF] Hosting environment: Development
+2025-11-13 03:23:34.914 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-13 03:23:34.915 +03:00 [DBG] Hosting started
+2025-11-13 03:23:35.611 +03:00 [DBG] Connection id "0HNH29BH0CQ55" accepted.
+2025-11-13 03:23:35.613 +03:00 [DBG] Connection id "0HNH29BH0CQ55" started.
+2025-11-13 03:23:35.726 +03:00 [DBG] Connection id "0HNH29BH0CQ56" accepted.
+2025-11-13 03:23:35.726 +03:00 [DBG] Connection id "0HNH29BH0CQ56" received FIN.
+2025-11-13 03:23:35.729 +03:00 [DBG] Connection id "0HNH29BH0CQ56" started.
+2025-11-13 03:23:35.732 +03:00 [DBG] Connection id "0HNH29BH0CQ56" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:23:35.734 +03:00 [DBG] Connection id "0HNH29BH0CQ56" disconnecting.
+2025-11-13 03:23:35.736 +03:00 [DBG] Connection id "0HNH29BH0CQ56" stopped.
+2025-11-13 03:23:35.738 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-13 03:23:35.941 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-13 03:23:35.959 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-13 03:23:35.960 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:23:36.040 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-13 03:23:36.042 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-13 03:23:36.059 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-13 03:23:36.061 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-13 03:23:36.062 +03:00 [DBG] Connection id "0HNH29BH0CQ55" completed keep alive response.
+2025-11-13 03:23:36.066 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 346.1188ms
+2025-11-13 03:23:36.107 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 03:23:36.116 +03:00 [DBG] Connection id "0HNH29BH0CQ57" accepted.
+2025-11-13 03:23:36.118 +03:00 [DBG] Connection id "0HNH29BH0CQ57" started.
+2025-11-13 03:23:36.119 +03:00 [DBG] Connection id "0HNH29BH0CQ55" completed keep alive response.
+2025-11-13 03:23:36.122 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-13 03:23:36.124 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.6703ms
+2025-11-13 03:23:36.191 +03:00 [DBG] Connection id "0HNH29BH0CQ57" completed keep alive response.
+2025-11-13 03:23:36.193 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.032ms
+2025-11-13 03:23:36.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-13 03:23:36.238 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-13 03:23:36.239 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:23:36.267 +03:00 [DBG] Connection id "0HNH29BH0CQ57" completed keep alive response.
+2025-11-13 03:23:36.276 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.7444ms
+2025-11-13 03:23:45.746 +03:00 [DBG] Connection id "0HNH29BH0CQ55" received FIN.
+2025-11-13 03:23:45.746 +03:00 [DBG] Connection id "0HNH29BH0CQ57" received FIN.
+2025-11-13 03:23:45.747 +03:00 [DBG] Connection id "0HNH29BH0CQ55" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:23:45.748 +03:00 [DBG] Connection id "0HNH29BH0CQ57" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:23:45.750 +03:00 [DBG] Connection id "0HNH29BH0CQ55" disconnecting.
+2025-11-13 03:23:45.759 +03:00 [DBG] Connection id "0HNH29BH0CQ57" disconnecting.
+2025-11-13 03:23:45.761 +03:00 [DBG] Connection id "0HNH29BH0CQ57" stopped.
+2025-11-13 03:23:45.776 +03:00 [DBG] Connection id "0HNH29BH0CQ55" stopped.
+2025-11-13 03:25:01.620 +03:00 [DBG] Connection id "0HNH29BH0CQ58" accepted.
+2025-11-13 03:25:01.623 +03:00 [DBG] Connection id "0HNH29BH0CQ58" started.
+2025-11-13 03:25:01.625 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Users/rigester - application/json 144
+2025-11-13 03:25:01.631 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Users/rigester'
+2025-11-13 03:25:01.636 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)' with route pattern 'api/Users/rigester' is valid for the request path '/api/Users/rigester'
+2025-11-13 03:25:01.637 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 03:25:01.641 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-13 03:25:01.642 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-13 03:25:01.645 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 03:25:01.675 +03:00 [INF] Route matched with {action = "CreateAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.ViewModel.UsersViewModel.UserDto]] CreateAccount(Application.ViewModel.UsersViewModel.RegisterRequest) on controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API).
+2025-11-13 03:25:01.679 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-13 03:25:01.680 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-13 03:25:01.681 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-13 03:25:01.682 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-13 03:25:01.684 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-13 03:25:01.687 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 03:25:01.695 +03:00 [INF] Executed action AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API) in 7.5316ms
+2025-11-13 03:25:01.697 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 03:25:01.700 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Application.Interface.IUserService' while attempting to activate 'AutoMarkup.API.Controllers.UsersController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-13 03:25:01.759 +03:00 [DBG] No candidates found for the request path '/error'
+2025-11-13 03:25:01.761 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:25:01.765 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Application.Interface.IUserService' while attempting to activate 'AutoMarkup.API.Controllers.UsersController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-13 03:25:01.775 +03:00 [DBG] Connection id "0HNH29BH0CQ58" completed keep alive response.
+2025-11-13 03:25:01.776 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Users/rigester - 500 null text/plain; charset=utf-8 151.545ms
+2025-11-13 03:25:01.780 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5294/api/Users/rigester, Response status code: 500
+2025-11-13 03:25:01.783 +03:00 [DBG] Connection id "0HNH29BH0CQ58", Request id "0HNH29BH0CQ58:00000001": started reading request body.
+2025-11-13 03:25:01.785 +03:00 [DBG] Connection id "0HNH29BH0CQ58", Request id "0HNH29BH0CQ58:00000001": done reading request body.
+2025-11-13 03:25:05.853 +03:00 [DBG] Connection id "0HNH29BH0CQ58" received FIN.
+2025-11-13 03:25:05.855 +03:00 [DBG] Connection id "0HNH29BH0CQ58" disconnecting.
+2025-11-13 03:25:05.862 +03:00 [DBG] Connection id "0HNH29BH0CQ58" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:25:05.866 +03:00 [DBG] Connection id "0HNH29BH0CQ58" stopped.
+2025-11-13 03:28:02.446 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-13 03:28:02.555 +03:00 [DBG] Hosting starting
+2025-11-13 03:28:02.851 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-13 03:28:02.852 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-13 03:28:02.853 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-13 03:28:02.854 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-13 03:28:02.855 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-13 03:28:02.933 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 03:28:02.935 +03:00 [INF] Hosting environment: Development
+2025-11-13 03:28:02.936 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-13 03:28:02.938 +03:00 [DBG] Hosting started
+2025-11-13 03:28:03.056 +03:00 [DBG] Connection id "0HNH29E0UGHEF" received FIN.
+2025-11-13 03:28:03.056 +03:00 [DBG] Connection id "0HNH29E0UGHEE" received FIN.
+2025-11-13 03:28:03.068 +03:00 [DBG] Connection id "0HNH29E0UGHEE" accepted.
+2025-11-13 03:28:03.068 +03:00 [DBG] Connection id "0HNH29E0UGHEF" accepted.
+2025-11-13 03:28:03.069 +03:00 [DBG] Connection id "0HNH29E0UGHEE" started.
+2025-11-13 03:28:03.070 +03:00 [DBG] Connection id "0HNH29E0UGHEF" started.
+2025-11-13 03:28:03.079 +03:00 [DBG] Connection id "0HNH29E0UGHEF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:28:03.079 +03:00 [DBG] Connection id "0HNH29E0UGHEE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:28:03.083 +03:00 [DBG] Connection id "0HNH29E0UGHEF" disconnecting.
+2025-11-13 03:28:03.083 +03:00 [DBG] Connection id "0HNH29E0UGHEE" disconnecting.
+2025-11-13 03:28:03.088 +03:00 [DBG] Connection id "0HNH29E0UGHEE" stopped.
+2025-11-13 03:28:03.088 +03:00 [DBG] Connection id "0HNH29E0UGHEF" stopped.
+2025-11-13 03:28:04.119 +03:00 [DBG] Connection id "0HNH29E0UGHEG" accepted.
+2025-11-13 03:28:04.121 +03:00 [DBG] Connection id "0HNH29E0UGHEG" started.
+2025-11-13 03:28:04.229 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-13 03:28:04.232 +03:00 [DBG] Connection id "0HNH29E0UGHEH" accepted.
+2025-11-13 03:28:04.236 +03:00 [DBG] Connection id "0HNH29E0UGHEH" started.
+2025-11-13 03:28:04.475 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-13 03:28:04.506 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-13 03:28:04.509 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:28:04.579 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-13 03:28:04.582 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-13 03:28:04.601 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-13 03:28:04.603 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-13 03:28:04.605 +03:00 [DBG] Connection id "0HNH29E0UGHEG" completed keep alive response.
+2025-11-13 03:28:04.627 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 409.5928ms
+2025-11-13 03:28:04.630 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-13 03:28:04.638 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 03:28:04.648 +03:00 [DBG] Connection id "0HNH29E0UGHEG" completed keep alive response.
+2025-11-13 03:28:04.655 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 17.3894ms
+2025-11-13 03:28:04.690 +03:00 [DBG] Connection id "0HNH29E0UGHEH" completed keep alive response.
+2025-11-13 03:28:04.692 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.3297ms
+2025-11-13 03:28:04.759 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-13 03:28:04.763 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-13 03:28:04.765 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:28:04.790 +03:00 [DBG] Connection id "0HNH29E0UGHEH" completed keep alive response.
+2025-11-13 03:28:04.791 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.9719ms
+2025-11-13 03:28:08.031 +03:00 [DBG] Connection id "0HNH29E0UGHEG" received FIN.
+2025-11-13 03:28:08.031 +03:00 [DBG] Connection id "0HNH29E0UGHEH" received FIN.
+2025-11-13 03:28:08.033 +03:00 [DBG] Connection id "0HNH29E0UGHEG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:28:08.034 +03:00 [DBG] Connection id "0HNH29E0UGHEH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:28:08.035 +03:00 [DBG] Connection id "0HNH29E0UGHEG" disconnecting.
+2025-11-13 03:28:08.037 +03:00 [DBG] Connection id "0HNH29E0UGHEH" disconnecting.
+2025-11-13 03:28:08.040 +03:00 [DBG] Connection id "0HNH29E0UGHEH" stopped.
+2025-11-13 03:28:08.045 +03:00 [DBG] Connection id "0HNH29E0UGHEG" stopped.
+2025-11-13 03:28:57.633 +03:00 [DBG] Connection id "0HNH29E0UGHEI" accepted.
+2025-11-13 03:28:57.635 +03:00 [DBG] Connection id "0HNH29E0UGHEI" started.
+2025-11-13 03:28:57.637 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Users/rigester - application/json 144
+2025-11-13 03:28:57.644 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Users/rigester'
+2025-11-13 03:28:57.648 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)' with route pattern 'api/Users/rigester' is valid for the request path '/api/Users/rigester'
+2025-11-13 03:28:57.651 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 03:28:57.656 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-13 03:28:57.658 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-13 03:28:57.661 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 03:28:57.706 +03:00 [INF] Route matched with {action = "CreateAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.ViewModel.UsersViewModel.UserDto]] CreateAccount(Application.ViewModel.UsersViewModel.RegisterRequest) on controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API).
+2025-11-13 03:28:57.710 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-13 03:28:57.712 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-13 03:28:57.714 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-13 03:28:57.716 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-13 03:28:57.717 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-13 03:28:57.721 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 03:28:57.909 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-11-13 03:28:58.342 +03:00 [DBG] The index {'ElementsElementId'} was not created on entity type 'ElementStyleRule (Dictionary<string, object>)' as the properties are already covered by the index {'ElementsElementId', 'StyleRulesStyleRuleId'}.
+2025-11-13 03:28:58.550 +03:00 [DBG] Entity Framework Core 9.0.10 initialized 'AutoMarkupDb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.10' with options: EngineType=SqlServer 
+2025-11-13 03:28:58.698 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 03:28:58.707 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' ...
+2025-11-13 03:28:58.710 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' using the name '' in request data ...
+2025-11-13 03:28:58.713 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-13 03:28:58.725 +03:00 [DBG] Connection id "0HNH29E0UGHEI", Request id "0HNH29E0UGHEI:00000001": started reading request body.
+2025-11-13 03:28:58.726 +03:00 [DBG] Connection id "0HNH29E0UGHEI", Request id "0HNH29E0UGHEI:00000001": done reading request body.
+2025-11-13 03:28:58.741 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.UsersViewModel.RegisterRequest'
+2025-11-13 03:28:58.743 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 03:28:58.744 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 03:28:58.745 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' ...
+2025-11-13 03:28:58.754 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 03:28:58.868 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Email == __email_0)'
+2025-11-13 03:28:59.108 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__email_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__email_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.UserId PK | Resolver: c => c.Dependencies.Model.FindEntityType("Domain.AccountEntity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<UserId>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                    instance.<Email>k__BackingField = dataReader.GetString(2);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(3);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(4);
+                                    instance.<PasswordHash>k__BackingField = dataReader.GetString(5);
+                                    instance.<Username>k__BackingField = dataReader.GetString(6);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: Infrastructure.DbContexts.AutoMarkupDb, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-11-13 03:28:59.145 +03:00 [DBG] Creating DbConnection.
+2025-11-13 03:28:59.164 +03:00 [DBG] Created DbConnection. (17ms).
+2025-11-13 03:28:59.169 +03:00 [DBG] Opening connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:02.775 +03:00 [DBG] Opened connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:02.779 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-11-13 03:29:02.786 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2025-11-13 03:29:02.795 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (16ms).
+2025-11-13 03:29:02.802 +03:00 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-13 03:29:02.877 +03:00 [INF] Executed DbCommand (76ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-13 03:29:02.889 +03:00 [DBG] Closing data reader to 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:02.895 +03:00 [DBG] A data reader for 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 12ms reading results.
+2025-11-13 03:29:02.898 +03:00 [DBG] Closing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:02.904 +03:00 [DBG] Closed connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' (5ms).
+2025-11-13 03:29:03.423 +03:00 [DBG] Context 'AutoMarkupDb' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 03:29:03.430 +03:00 [DBG] SaveChanges starting for 'AutoMarkupDb'.
+2025-11-13 03:29:03.433 +03:00 [DBG] DetectChanges starting for 'AutoMarkupDb'.
+2025-11-13 03:29:03.442 +03:00 [DBG] DetectChanges completed for 'AutoMarkupDb'.
+2025-11-13 03:29:03.512 +03:00 [DBG] Opening connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:03.516 +03:00 [DBG] Opened connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:03.522 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-11-13 03:29:03.523 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-11-13 03:29:03.524 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-11-13 03:29:03.525 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 50), @p4='?' (Size = 50), @p5='?' (Size = 4000), @p6='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [CreatedAt], [Email], [FirstName], [LastName], [PasswordHash], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-13 03:29:03.544 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 50), @p4='?' (Size = 50), @p5='?' (Size = 4000), @p6='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [CreatedAt], [Email], [FirstName], [LastName], [PasswordHash], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-13 03:29:03.550 +03:00 [DBG] Closing data reader to 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:03.551 +03:00 [DBG] A data reader for 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 3ms reading results.
+2025-11-13 03:29:03.553 +03:00 [DBG] Closing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:03.554 +03:00 [DBG] Closed connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2025-11-13 03:29:03.562 +03:00 [DBG] An entity of type 'User' tracked by 'AutoMarkupDb' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 03:29:03.565 +03:00 [DBG] SaveChanges completed for 'AutoMarkupDb' with 1 entities written to the database.
+2025-11-13 03:29:03.573 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-13 03:29:03.576 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-13 03:29:03.579 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-13 03:29:03.580 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-13 03:29:03.581 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-13 03:29:03.582 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-13 03:29:03.584 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.ViewModel.UsersViewModel.UserDto'.
+2025-11-13 03:29:03.599 +03:00 [INF] Executed action AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API) in 5877.2918ms
+2025-11-13 03:29:03.601 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 03:29:03.603 +03:00 [DBG] Connection id "0HNH29E0UGHEI" completed keep alive response.
+2025-11-13 03:29:03.606 +03:00 [DBG] 'AutoMarkupDb' disposed.
+2025-11-13 03:29:03.610 +03:00 [DBG] Disposing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:29:03.613 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-11-13 03:29:03.614 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Users/rigester - 200 null application/json; charset=utf-8 5977.7339ms
+2025-11-13 03:29:08.144 +03:00 [DBG] Connection id "0HNH29E0UGHEI" received FIN.
+2025-11-13 03:29:08.153 +03:00 [DBG] Connection id "0HNH29E0UGHEI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:29:08.154 +03:00 [DBG] Connection id "0HNH29E0UGHEI" disconnecting.
+2025-11-13 03:29:08.155 +03:00 [DBG] Connection id "0HNH29E0UGHEI" stopped.
+2025-11-13 03:29:49.757 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-13 03:29:49.817 +03:00 [DBG] Hosting starting
+2025-11-13 03:29:49.925 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-13 03:29:49.927 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-13 03:29:49.928 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-13 03:29:49.929 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-13 03:29:49.930 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-13 03:29:49.997 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 03:29:49.998 +03:00 [INF] Hosting environment: Development
+2025-11-13 03:29:49.999 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-13 03:29:50.008 +03:00 [DBG] Hosting started
+2025-11-13 03:29:50.015 +03:00 [DBG] Connection id "0HNH29F0QHGEE" accepted.
+2025-11-13 03:29:50.015 +03:00 [DBG] Connection id "0HNH29F0QHGED" accepted.
+2025-11-13 03:29:50.016 +03:00 [DBG] Connection id "0HNH29F0QHGEE" started.
+2025-11-13 03:29:50.017 +03:00 [DBG] Connection id "0HNH29F0QHGED" started.
+2025-11-13 03:29:50.036 +03:00 [DBG] Connection id "0HNH29F0QHGED" received FIN.
+2025-11-13 03:29:50.036 +03:00 [DBG] Connection id "0HNH29F0QHGEE" received FIN.
+2025-11-13 03:29:50.046 +03:00 [DBG] Connection id "0HNH29F0QHGEE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:29:50.046 +03:00 [DBG] Connection id "0HNH29F0QHGED" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:29:50.049 +03:00 [DBG] Connection id "0HNH29F0QHGEE" disconnecting.
+2025-11-13 03:29:50.049 +03:00 [DBG] Connection id "0HNH29F0QHGED" disconnecting.
+2025-11-13 03:29:50.051 +03:00 [DBG] Connection id "0HNH29F0QHGEE" stopped.
+2025-11-13 03:29:50.051 +03:00 [DBG] Connection id "0HNH29F0QHGED" stopped.
+2025-11-13 03:29:51.386 +03:00 [DBG] Connection id "0HNH29F0QHGEF" accepted.
+2025-11-13 03:29:51.387 +03:00 [DBG] Connection id "0HNH29F0QHGEF" started.
+2025-11-13 03:29:51.474 +03:00 [DBG] Connection id "0HNH29F0QHGEG" accepted.
+2025-11-13 03:29:51.476 +03:00 [DBG] Connection id "0HNH29F0QHGEG" started.
+2025-11-13 03:29:51.481 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-13 03:29:51.640 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-13 03:29:51.663 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-13 03:29:51.665 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:29:51.743 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-13 03:29:51.745 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-13 03:29:51.756 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-13 03:29:51.758 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-13 03:29:51.760 +03:00 [DBG] Connection id "0HNH29F0QHGEF" completed keep alive response.
+2025-11-13 03:29:51.760 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 03:29:51.763 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 294.5868ms
+2025-11-13 03:29:51.766 +03:00 [DBG] Connection id "0HNH29F0QHGEG" completed keep alive response.
+2025-11-13 03:29:51.768 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 7.3605ms
+2025-11-13 03:29:51.768 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-13 03:29:51.815 +03:00 [DBG] Connection id "0HNH29F0QHGEF" completed keep alive response.
+2025-11-13 03:29:51.816 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.726ms
+2025-11-13 03:29:51.853 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-13 03:29:51.856 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-13 03:29:51.857 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 03:29:51.876 +03:00 [DBG] Connection id "0HNH29F0QHGEF" completed keep alive response.
+2025-11-13 03:29:51.879 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.8958ms
+2025-11-13 03:29:57.421 +03:00 [DBG] Connection id "0HNH29F0QHGEG" received FIN.
+2025-11-13 03:29:57.421 +03:00 [DBG] Connection id "0HNH29F0QHGEF" received FIN.
+2025-11-13 03:29:57.422 +03:00 [DBG] Connection id "0HNH29F0QHGEG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:29:57.423 +03:00 [DBG] Connection id "0HNH29F0QHGEF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:29:57.424 +03:00 [DBG] Connection id "0HNH29F0QHGEG" disconnecting.
+2025-11-13 03:29:57.425 +03:00 [DBG] Connection id "0HNH29F0QHGEF" disconnecting.
+2025-11-13 03:29:57.428 +03:00 [DBG] Connection id "0HNH29F0QHGEF" stopped.
+2025-11-13 03:29:57.429 +03:00 [DBG] Connection id "0HNH29F0QHGEG" stopped.
+2025-11-13 03:30:16.968 +03:00 [DBG] Connection id "0HNH29F0QHGEH" accepted.
+2025-11-13 03:30:16.970 +03:00 [DBG] Connection id "0HNH29F0QHGEH" started.
+2025-11-13 03:30:16.972 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Users/login - application/json 66
+2025-11-13 03:30:16.980 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2025-11-13 03:30:16.985 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.UsersController.LoginAccount (AutoMarkup.API)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2025-11-13 03:30:16.987 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.UsersController.LoginAccount (AutoMarkup.API)'
+2025-11-13 03:30:16.990 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-13 03:30:16.992 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-13 03:30:16.995 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.UsersController.LoginAccount (AutoMarkup.API)'
+2025-11-13 03:30:17.022 +03:00 [INF] Route matched with {action = "LoginAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.ViewModel.UsersViewModel.UserDto]] LoginAccount(Application.ViewModel.UsersViewModel.LoginRequest) on controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API).
+2025-11-13 03:30:17.025 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-13 03:30:17.027 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-13 03:30:17.029 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-13 03:30:17.030 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-13 03:30:17.032 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-13 03:30:17.034 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 03:30:17.136 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-11-13 03:30:17.511 +03:00 [DBG] The index {'ElementsElementId'} was not created on entity type 'ElementStyleRule (Dictionary<string, object>)' as the properties are already covered by the index {'ElementsElementId', 'StyleRulesStyleRuleId'}.
+2025-11-13 03:30:17.691 +03:00 [DBG] Entity Framework Core 9.0.10 initialized 'AutoMarkupDb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.10' with options: EngineType=SqlServer 
+2025-11-13 03:30:17.850 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 03:30:17.859 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.LoginRequest' ...
+2025-11-13 03:30:17.862 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.LoginRequest' using the name '' in request data ...
+2025-11-13 03:30:17.864 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-13 03:30:17.871 +03:00 [DBG] Connection id "0HNH29F0QHGEH", Request id "0HNH29F0QHGEH:00000001": started reading request body.
+2025-11-13 03:30:17.872 +03:00 [DBG] Connection id "0HNH29F0QHGEH", Request id "0HNH29F0QHGEH:00000001": done reading request body.
+2025-11-13 03:30:17.889 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.UsersViewModel.LoginRequest'
+2025-11-13 03:30:17.891 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.LoginRequest'.
+2025-11-13 03:30:17.892 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.LoginRequest'.
+2025-11-13 03:30:17.893 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.LoginRequest' ...
+2025-11-13 03:30:17.899 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.LoginRequest'.
+2025-11-13 03:30:17.973 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Username == __usernameOrEmail_0 || u.Email == __usernameOrEmail_0)'
+2025-11-13 03:30:18.186 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE (u.Username == @__usernameOrEmail_0) || (u.Email == @__usernameOrEmail_0)) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE (u.Username == @__usernameOrEmail_0) || (u.Email == @__usernameOrEmail_0), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.UserId PK | Resolver: c => c.Dependencies.Model.FindEntityType("Domain.AccountEntity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<UserId>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                    instance.<Email>k__BackingField = dataReader.GetString(2);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(3);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(4);
+                                    instance.<PasswordHash>k__BackingField = dataReader.GetString(5);
+                                    instance.<Username>k__BackingField = dataReader.GetString(6);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: Infrastructure.DbContexts.AutoMarkupDb, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-11-13 03:30:18.222 +03:00 [DBG] Creating DbConnection.
+2025-11-13 03:30:18.239 +03:00 [DBG] Created DbConnection. (15ms).
+2025-11-13 03:30:18.243 +03:00 [DBG] Opening connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:30:18.913 +03:00 [DBG] Opened connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:30:18.918 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-11-13 03:30:18.927 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2025-11-13 03:30:18.938 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (20ms).
+2025-11-13 03:30:18.950 +03:00 [DBG] Executing DbCommand [Parameters=[@__usernameOrEmail_0='?' (Size = 50), @__usernameOrEmail_0_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__usernameOrEmail_0 OR [u].[Email] = @__usernameOrEmail_0_1
+2025-11-13 03:30:19.037 +03:00 [INF] Executed DbCommand (91ms) [Parameters=[@__usernameOrEmail_0='?' (Size = 50), @__usernameOrEmail_0_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__usernameOrEmail_0 OR [u].[Email] = @__usernameOrEmail_0_1
+2025-11-13 03:30:19.093 +03:00 [DBG] Context 'AutoMarkupDb' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 03:30:19.128 +03:00 [DBG] Closing data reader to 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:30:19.138 +03:00 [DBG] A data reader for 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 93ms reading results.
+2025-11-13 03:30:19.144 +03:00 [DBG] Closing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:30:19.153 +03:00 [DBG] Closed connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' (8ms).
+2025-11-13 03:30:19.510 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-13 03:30:19.514 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-13 03:30:19.516 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-13 03:30:19.518 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-13 03:30:19.519 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-13 03:30:19.520 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-13 03:30:19.522 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.ViewModel.UsersViewModel.UserDto'.
+2025-11-13 03:30:19.538 +03:00 [INF] Executed action AutoMarkup.API.Controllers.UsersController.LoginAccount (AutoMarkup.API) in 2502.0637ms
+2025-11-13 03:30:19.540 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.UsersController.LoginAccount (AutoMarkup.API)'
+2025-11-13 03:30:19.542 +03:00 [DBG] Connection id "0HNH29F0QHGEH" completed keep alive response.
+2025-11-13 03:30:19.545 +03:00 [DBG] 'AutoMarkupDb' disposed.
+2025-11-13 03:30:19.551 +03:00 [DBG] Disposing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:30:19.553 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-11-13 03:30:19.555 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Users/login - 200 null application/json; charset=utf-8 2583.015ms
+2025-11-13 03:30:27.455 +03:00 [DBG] Connection id "0HNH29F0QHGEH" received FIN.
+2025-11-13 03:30:27.456 +03:00 [DBG] Connection id "0HNH29F0QHGEH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:30:27.458 +03:00 [DBG] Connection id "0HNH29F0QHGEH" disconnecting.
+2025-11-13 03:30:27.459 +03:00 [DBG] Connection id "0HNH29F0QHGEH" stopped.
+2025-11-13 03:31:22.313 +03:00 [DBG] Connection id "0HNH29F0QHGEI" accepted.
+2025-11-13 03:31:22.314 +03:00 [DBG] Connection id "0HNH29F0QHGEI" started.
+2025-11-13 03:31:22.316 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5294/api/Users/change-password/d7be46d5-15f6-466b-8d40-4f298bc3978a - application/json 69
+2025-11-13 03:31:22.320 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Users/change-password/d7be46d5-15f6-466b-8d40-4f298bc3978a'
+2025-11-13 03:31:22.321 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.UsersController.ChangePasswordAsync (AutoMarkup.API)' with route pattern 'api/Users/change-password/{userId}' is valid for the request path '/api/Users/change-password/d7be46d5-15f6-466b-8d40-4f298bc3978a'
+2025-11-13 03:31:22.322 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.UsersController.ChangePasswordAsync (AutoMarkup.API)'
+2025-11-13 03:31:22.324 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-13 03:31:22.325 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.UsersController.ChangePasswordAsync (AutoMarkup.API)'
+2025-11-13 03:31:22.334 +03:00 [INF] Route matched with {action = "ChangePassword", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Boolean]] ChangePasswordAsync(System.Guid, Application.ViewModel.UsersViewModel.ChangePasswordRequest) on controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API).
+2025-11-13 03:31:22.335 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-13 03:31:22.337 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-13 03:31:22.339 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-13 03:31:22.341 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-13 03:31:22.342 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-13 03:31:22.343 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 03:31:22.393 +03:00 [DBG] Entity Framework Core 9.0.10 initialized 'AutoMarkupDb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.10' with options: EngineType=SqlServer 
+2025-11-13 03:31:22.396 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 03:31:22.397 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' ...
+2025-11-13 03:31:22.399 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' using the name 'userId' in request data ...
+2025-11-13 03:31:22.402 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2025-11-13 03:31:22.403 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2025-11-13 03:31:22.404 +03:00 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Guid' ...
+2025-11-13 03:31:22.407 +03:00 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Guid'.
+2025-11-13 03:31:22.409 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.ChangePasswordRequest' ...
+2025-11-13 03:31:22.410 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.ChangePasswordRequest' using the name '' in request data ...
+2025-11-13 03:31:22.412 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-13 03:31:22.413 +03:00 [DBG] Connection id "0HNH29F0QHGEI", Request id "0HNH29F0QHGEI:00000001": started reading request body.
+2025-11-13 03:31:22.415 +03:00 [DBG] Connection id "0HNH29F0QHGEI", Request id "0HNH29F0QHGEI:00000001": done reading request body.
+2025-11-13 03:31:22.417 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.UsersViewModel.ChangePasswordRequest'
+2025-11-13 03:31:22.418 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.ChangePasswordRequest'.
+2025-11-13 03:31:22.419 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.ChangePasswordRequest'.
+2025-11-13 03:31:22.420 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.ChangePasswordRequest' ...
+2025-11-13 03:31:22.422 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.ChangePasswordRequest'.
+2025-11-13 03:31:22.441 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(e => object.Equals(
+        objA: EF.Property<object>(e, "UserId"), 
+        objB: __p_0))'
+2025-11-13 03:31:22.474 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.UserId == @__p_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.UserId == @__p_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.UserId PK | Resolver: c => c.Dependencies.Model.FindEntityType("Domain.AccountEntity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<UserId>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                    instance.<Email>k__BackingField = dataReader.GetString(2);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(3);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(4);
+                                    instance.<PasswordHash>k__BackingField = dataReader.GetString(5);
+                                    instance.<Username>k__BackingField = dataReader.GetString(6);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: Infrastructure.DbContexts.AutoMarkupDb, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-11-13 03:31:22.479 +03:00 [DBG] Creating DbConnection.
+2025-11-13 03:31:22.480 +03:00 [DBG] Created DbConnection. (1ms).
+2025-11-13 03:31:22.481 +03:00 [DBG] Opening connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.483 +03:00 [DBG] Opened connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.485 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-11-13 03:31:22.485 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-11-13 03:31:22.487 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-11-13 03:31:22.488 +03:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0
+2025-11-13 03:31:22.497 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0
+2025-11-13 03:31:22.499 +03:00 [DBG] Context 'AutoMarkupDb' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 03:31:22.500 +03:00 [DBG] Closing data reader to 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.501 +03:00 [DBG] A data reader for 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 2ms reading results.
+2025-11-13 03:31:22.502 +03:00 [DBG] Closing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.503 +03:00 [DBG] Closed connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2025-11-13 03:31:22.796 +03:00 [DBG] An entity of type 'User' tracked by 'AutoMarkupDb' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 03:31:22.801 +03:00 [DBG] SaveChanges starting for 'AutoMarkupDb'.
+2025-11-13 03:31:22.804 +03:00 [DBG] DetectChanges starting for 'AutoMarkupDb'.
+2025-11-13 03:31:22.814 +03:00 [DBG] DetectChanges completed for 'AutoMarkupDb'.
+2025-11-13 03:31:22.855 +03:00 [DBG] Opening connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.856 +03:00 [DBG] Opened connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.860 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-11-13 03:31:22.860 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-11-13 03:31:22.862 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-11-13 03:31:22.862 +03:00 [DBG] Executing DbCommand [Parameters=[@p6='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (Size = 50), @p4='?' (Size = 4000), @p5='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [PasswordHash] = @p4, [Username] = @p5
+OUTPUT 1
+WHERE [UserId] = @p6;
+2025-11-13 03:31:22.881 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[@p6='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (Size = 50), @p4='?' (Size = 4000), @p5='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [PasswordHash] = @p4, [Username] = @p5
+OUTPUT 1
+WHERE [UserId] = @p6;
+2025-11-13 03:31:22.886 +03:00 [DBG] Closing data reader to 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.888 +03:00 [DBG] A data reader for 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 5ms reading results.
+2025-11-13 03:31:22.890 +03:00 [DBG] Closing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.891 +03:00 [DBG] Closed connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' (1ms).
+2025-11-13 03:31:22.894 +03:00 [DBG] An entity of type 'User' tracked by 'AutoMarkupDb' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 03:31:22.896 +03:00 [DBG] SaveChanges completed for 'AutoMarkupDb' with 1 entities written to the database.
+2025-11-13 03:31:22.899 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-13 03:31:22.901 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-13 03:31:22.901 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-13 03:31:22.902 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-13 03:31:22.903 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-13 03:31:22.903 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-13 03:31:22.904 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2025-11-13 03:31:22.907 +03:00 [INF] Executed action AutoMarkup.API.Controllers.UsersController.ChangePasswordAsync (AutoMarkup.API) in 563.2837ms
+2025-11-13 03:31:22.908 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.UsersController.ChangePasswordAsync (AutoMarkup.API)'
+2025-11-13 03:31:22.909 +03:00 [DBG] Connection id "0HNH29F0QHGEI" completed keep alive response.
+2025-11-13 03:31:22.910 +03:00 [DBG] 'AutoMarkupDb' disposed.
+2025-11-13 03:31:22.910 +03:00 [DBG] Disposing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 03:31:22.911 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-11-13 03:31:22.912 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5294/api/Users/change-password/d7be46d5-15f6-466b-8d40-4f298bc3978a - 200 null application/json; charset=utf-8 596.5269ms
+2025-11-13 03:31:27.535 +03:00 [DBG] Connection id "0HNH29F0QHGEI" received FIN.
+2025-11-13 03:31:27.537 +03:00 [DBG] Connection id "0HNH29F0QHGEI" disconnecting.
+2025-11-13 03:31:27.547 +03:00 [DBG] Connection id "0HNH29F0QHGEI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 03:31:27.559 +03:00 [DBG] Connection id "0HNH29F0QHGEI" stopped.
+2025-11-13 22:14:14.484 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-13 22:14:14.607 +03:00 [DBG] Hosting starting
+2025-11-13 22:14:14.755 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-13 22:14:14.757 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-13 22:14:14.758 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-13 22:14:14.760 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-13 22:14:14.761 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-13 22:14:14.837 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 22:14:14.839 +03:00 [INF] Hosting environment: Development
+2025-11-13 22:14:14.840 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-13 22:14:14.841 +03:00 [DBG] Hosting started
+2025-11-13 22:14:15.157 +03:00 [DBG] Connection id "0HNH2T3B0937D" accepted.
+2025-11-13 22:14:15.160 +03:00 [DBG] Connection id "0HNH2T3B0937D" started.
+2025-11-13 22:14:15.164 +03:00 [DBG] Connection id "0HNH2T3B0937E" accepted.
+2025-11-13 22:14:15.165 +03:00 [DBG] Connection id "0HNH2T3B0937E" started.
+2025-11-13 22:14:15.185 +03:00 [DBG] Connection id "0HNH2T3B0937E" received FIN.
+2025-11-13 22:14:15.185 +03:00 [DBG] Connection id "0HNH2T3B0937D" received FIN.
+2025-11-13 22:14:15.204 +03:00 [DBG] Connection id "0HNH2T3B0937D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:14:15.204 +03:00 [DBG] Connection id "0HNH2T3B0937E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:14:15.211 +03:00 [DBG] Connection id "0HNH2T3B0937E" disconnecting.
+2025-11-13 22:14:15.210 +03:00 [DBG] Connection id "0HNH2T3B0937D" disconnecting.
+2025-11-13 22:14:15.232 +03:00 [DBG] Connection id "0HNH2T3B0937E" stopped.
+2025-11-13 22:14:15.232 +03:00 [DBG] Connection id "0HNH2T3B0937D" stopped.
+2025-11-13 22:14:15.689 +03:00 [DBG] Connection id "0HNH2T3B0937F" accepted.
+2025-11-13 22:14:15.692 +03:00 [DBG] Connection id "0HNH2T3B0937F" started.
+2025-11-13 22:14:15.815 +03:00 [DBG] Connection id "0HNH2T3B0937G" accepted.
+2025-11-13 22:14:15.818 +03:00 [DBG] Connection id "0HNH2T3B0937G" started.
+2025-11-13 22:14:15.830 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-13 22:14:16.083 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-13 22:14:16.120 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-13 22:14:16.124 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 22:14:16.193 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-13 22:14:16.195 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-13 22:14:16.211 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-13 22:14:16.213 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-13 22:14:16.214 +03:00 [DBG] Connection id "0HNH2T3B0937F" completed keep alive response.
+2025-11-13 22:14:16.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 415.3517ms
+2025-11-13 22:14:16.227 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 22:14:16.232 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-13 22:14:16.240 +03:00 [DBG] Connection id "0HNH2T3B0937F" completed keep alive response.
+2025-11-13 22:14:16.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 17.1641ms
+2025-11-13 22:14:16.313 +03:00 [DBG] Connection id "0HNH2T3B0937G" completed keep alive response.
+2025-11-13 22:14:16.315 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.8937ms
+2025-11-13 22:14:16.361 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-13 22:14:16.364 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-13 22:14:16.366 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 22:14:16.390 +03:00 [DBG] Connection id "0HNH2T3B0937G" completed keep alive response.
+2025-11-13 22:14:16.392 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.3907ms
+2025-11-13 22:14:21.063 +03:00 [DBG] Connection id "0HNH2T3B0937F" received FIN.
+2025-11-13 22:14:21.063 +03:00 [DBG] Connection id "0HNH2T3B0937G" received FIN.
+2025-11-13 22:14:21.065 +03:00 [DBG] Connection id "0HNH2T3B0937F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:14:21.066 +03:00 [DBG] Connection id "0HNH2T3B0937G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:14:21.068 +03:00 [DBG] Connection id "0HNH2T3B0937F" disconnecting.
+2025-11-13 22:14:21.069 +03:00 [DBG] Connection id "0HNH2T3B0937G" disconnecting.
+2025-11-13 22:14:21.070 +03:00 [DBG] Connection id "0HNH2T3B0937G" stopped.
+2025-11-13 22:14:21.074 +03:00 [DBG] Connection id "0HNH2T3B0937F" stopped.
+2025-11-13 22:15:12.970 +03:00 [DBG] Connection id "0HNH2T3B0937H" accepted.
+2025-11-13 22:15:12.979 +03:00 [DBG] Connection id "0HNH2T3B0937H" started.
+2025-11-13 22:15:12.981 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Users/rigester - application/json 122
+2025-11-13 22:15:12.988 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Users/rigester'
+2025-11-13 22:15:12.992 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)' with route pattern 'api/Users/rigester' is valid for the request path '/api/Users/rigester'
+2025-11-13 22:15:12.994 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 22:15:12.998 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-13 22:15:13.000 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-13 22:15:13.003 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 22:15:13.031 +03:00 [INF] Route matched with {action = "CreateAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.ViewModel.UsersViewModel.UserDto]] CreateAccount(Application.ViewModel.UsersViewModel.RegisterRequest) on controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API).
+2025-11-13 22:15:13.034 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-13 22:15:13.035 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-13 22:15:13.037 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-13 22:15:13.038 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-13 22:15:13.039 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-13 22:15:13.042 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 22:15:13.176 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-11-13 22:15:13.566 +03:00 [DBG] The index {'ElementsElementId'} was not created on entity type 'ElementStyleRule (Dictionary<string, object>)' as the properties are already covered by the index {'ElementsElementId', 'StyleRulesStyleRuleId'}.
+2025-11-13 22:15:13.743 +03:00 [DBG] Entity Framework Core 9.0.10 initialized 'AutoMarkupDb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.10' with options: EngineType=SqlServer 
+2025-11-13 22:15:13.897 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 22:15:13.904 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' ...
+2025-11-13 22:15:13.907 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' using the name '' in request data ...
+2025-11-13 22:15:13.909 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-13 22:15:13.918 +03:00 [DBG] Connection id "0HNH2T3B0937H", Request id "0HNH2T3B0937H:00000001": started reading request body.
+2025-11-13 22:15:13.920 +03:00 [DBG] Connection id "0HNH2T3B0937H", Request id "0HNH2T3B0937H:00000001": done reading request body.
+2025-11-13 22:15:13.933 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.UsersViewModel.RegisterRequest'
+2025-11-13 22:15:13.935 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 22:15:13.936 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 22:15:13.937 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' ...
+2025-11-13 22:15:13.944 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 22:15:14.031 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Email == __email_0)'
+2025-11-13 22:15:14.282 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__email_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__email_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.UserId PK | Resolver: c => c.Dependencies.Model.FindEntityType("Domain.AccountEntity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<UserId>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                    instance.<Email>k__BackingField = dataReader.GetString(2);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(3);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(4);
+                                    instance.<PasswordHash>k__BackingField = dataReader.GetString(5);
+                                    instance.<Username>k__BackingField = dataReader.GetString(6);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: Infrastructure.DbContexts.AutoMarkupDb, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-11-13 22:15:14.311 +03:00 [DBG] Creating DbConnection.
+2025-11-13 22:15:14.328 +03:00 [DBG] Created DbConnection. (15ms).
+2025-11-13 22:15:14.333 +03:00 [DBG] Opening connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:15:14.709 +03:00 [DBG] Opened connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:15:14.714 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-11-13 22:15:14.723 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2025-11-13 22:15:14.734 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (19ms).
+2025-11-13 22:15:14.743 +03:00 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-13 22:15:14.801 +03:00 [INF] Executed DbCommand (61ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-13 22:15:14.834 +03:00 [DBG] Context 'AutoMarkupDb' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 22:15:14.859 +03:00 [DBG] Closing data reader to 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:15:14.865 +03:00 [DBG] A data reader for 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 58ms reading results.
+2025-11-13 22:15:14.869 +03:00 [DBG] Closing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:15:14.874 +03:00 [DBG] Closed connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' (4ms).
+2025-11-13 22:15:14.950 +03:00 [INF] Executed action AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API) in 1907.3882ms
+2025-11-13 22:15:14.952 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 22:15:14.955 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: User already exists with this email
+   at UserService.RegisterAsync(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\Application\Services\UserService.cs:line 29
+   at AutoMarkup.API.Controllers.UsersController.CreateAccount(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API\Controllers\UsersController.cs:line 24
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-13 22:15:15.014 +03:00 [DBG] No candidates found for the request path '/error'
+2025-11-13 22:15:15.014 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 22:15:15.018 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> System.ArgumentException: User already exists with this email
+   at UserService.RegisterAsync(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\Application\Services\UserService.cs:line 29
+   at AutoMarkup.API.Controllers.UsersController.CreateAccount(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API\Controllers\UsersController.cs:line 24
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-13 22:15:15.027 +03:00 [DBG] Connection id "0HNH2T3B0937H" completed keep alive response.
+2025-11-13 22:15:15.030 +03:00 [DBG] 'AutoMarkupDb' disposed.
+2025-11-13 22:15:15.034 +03:00 [DBG] Disposing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:15:15.036 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-11-13 22:15:15.037 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Users/rigester - 500 null text/plain; charset=utf-8 2056.2502ms
+2025-11-13 22:15:15.041 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5294/api/Users/rigester, Response status code: 500
+2025-11-13 22:15:21.166 +03:00 [DBG] Connection id "0HNH2T3B0937H" received FIN.
+2025-11-13 22:15:21.168 +03:00 [DBG] Connection id "0HNH2T3B0937H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:15:21.169 +03:00 [DBG] Connection id "0HNH2T3B0937H" disconnecting.
+2025-11-13 22:15:21.177 +03:00 [DBG] Connection id "0HNH2T3B0937H" stopped.
+2025-11-13 22:20:56.529 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-13 22:20:56.646 +03:00 [DBG] Hosting starting
+2025-11-13 22:20:56.847 +03:00 [INF] Now listening on: http://localhost:5294
+2025-11-13 22:20:56.849 +03:00 [DBG] Loaded hosting startup assembly AutoMarkup.API
+2025-11-13 22:20:56.850 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-13 22:20:56.852 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-13 22:20:56.853 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-13 22:20:56.940 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 22:20:56.942 +03:00 [INF] Hosting environment: Development
+2025-11-13 22:20:56.943 +03:00 [INF] Content root path: C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API
+2025-11-13 22:20:56.944 +03:00 [DBG] Hosting started
+2025-11-13 22:20:56.987 +03:00 [DBG] Connection id "0HNH2T72OCPGF" accepted.
+2025-11-13 22:20:56.987 +03:00 [DBG] Connection id "0HNH2T72OCPGF" received FIN.
+2025-11-13 22:20:56.987 +03:00 [DBG] Connection id "0HNH2T72OCPGE" received FIN.
+2025-11-13 22:20:56.987 +03:00 [DBG] Connection id "0HNH2T72OCPGE" accepted.
+2025-11-13 22:20:56.990 +03:00 [DBG] Connection id "0HNH2T72OCPGF" started.
+2025-11-13 22:20:57.010 +03:00 [DBG] Connection id "0HNH2T72OCPGE" started.
+2025-11-13 22:20:57.026 +03:00 [DBG] Connection id "0HNH2T72OCPGE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:20:57.026 +03:00 [DBG] Connection id "0HNH2T72OCPGF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:20:57.042 +03:00 [DBG] Connection id "0HNH2T72OCPGE" disconnecting.
+2025-11-13 22:20:57.043 +03:00 [DBG] Connection id "0HNH2T72OCPGF" disconnecting.
+2025-11-13 22:20:57.052 +03:00 [DBG] Connection id "0HNH2T72OCPGF" stopped.
+2025-11-13 22:20:57.052 +03:00 [DBG] Connection id "0HNH2T72OCPGE" stopped.
+2025-11-13 22:20:57.211 +03:00 [DBG] Connection id "0HNH2T72OCPGG" accepted.
+2025-11-13 22:20:57.213 +03:00 [DBG] Connection id "0HNH2T72OCPGG" started.
+2025-11-13 22:20:57.355 +03:00 [DBG] Connection id "0HNH2T72OCPGH" accepted.
+2025-11-13 22:20:57.358 +03:00 [DBG] Connection id "0HNH2T72OCPGH" started.
+2025-11-13 22:20:57.382 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/index.html - null null
+2025-11-13 22:20:57.641 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-13 22:20:57.669 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-11-13 22:20:57.672 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 22:20:57.748 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-13 22:20:57.751 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-13 22:20:57.774 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-13 22:20:57.776 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-13 22:20:57.780 +03:00 [DBG] Connection id "0HNH2T72OCPGG" completed keep alive response.
+2025-11-13 22:20:57.780 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 22:20:57.786 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/index.html - 200 null text/html;charset=utf-8 429.1336ms
+2025-11-13 22:20:57.796 +03:00 [DBG] Connection id "0HNH2T72OCPGH" completed keep alive response.
+2025-11-13 22:20:57.800 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 19.9494ms
+2025-11-13 22:20:57.801 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/_vs/browserLink - null null
+2025-11-13 22:20:57.811 +03:00 [DBG] Connection id "0HNH2T72OCPGH" received FIN.
+2025-11-13 22:20:57.813 +03:00 [DBG] Connection id "0HNH2T72OCPGH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:20:57.816 +03:00 [DBG] Connection id "0HNH2T72OCPGH" disconnecting.
+2025-11-13 22:20:57.823 +03:00 [DBG] Connection id "0HNH2T72OCPGH" stopped.
+2025-11-13 22:20:57.859 +03:00 [DBG] Connection id "0HNH2T72OCPGG" completed keep alive response.
+2025-11-13 22:20:57.861 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.6363ms
+2025-11-13 22:20:57.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - null null
+2025-11-13 22:20:57.927 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-13 22:20:57.929 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 22:20:57.960 +03:00 [DBG] Connection id "0HNH2T72OCPGG" completed keep alive response.
+2025-11-13 22:20:57.964 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5294/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.7853ms
+2025-11-13 22:21:02.811 +03:00 [DBG] Connection id "0HNH2T72OCPGG" received FIN.
+2025-11-13 22:21:02.813 +03:00 [DBG] Connection id "0HNH2T72OCPGG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:21:02.814 +03:00 [DBG] Connection id "0HNH2T72OCPGG" disconnecting.
+2025-11-13 22:21:02.816 +03:00 [DBG] Connection id "0HNH2T72OCPGG" stopped.
+2025-11-13 22:21:24.193 +03:00 [DBG] Connection id "0HNH2T72OCPGI" accepted.
+2025-11-13 22:21:24.197 +03:00 [DBG] Connection id "0HNH2T72OCPGI" started.
+2025-11-13 22:21:24.199 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5294/api/Users/rigester - application/json 123
+2025-11-13 22:21:24.207 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Users/rigester'
+2025-11-13 22:21:24.212 +03:00 [DBG] Endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)' with route pattern 'api/Users/rigester' is valid for the request path '/api/Users/rigester'
+2025-11-13 22:21:24.214 +03:00 [DBG] Request matched endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 22:21:24.217 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-11-13 22:21:24.220 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-13 22:21:24.223 +03:00 [INF] Executing endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 22:21:24.252 +03:00 [INF] Route matched with {action = "CreateAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.ViewModel.UsersViewModel.UserDto]] CreateAccount(Application.ViewModel.UsersViewModel.RegisterRequest) on controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API).
+2025-11-13 22:21:24.256 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-13 22:21:24.258 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-13 22:21:24.260 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-13 22:21:24.262 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-13 22:21:24.263 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-11-13 22:21:24.266 +03:00 [DBG] Executing controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 22:21:24.380 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-11-13 22:21:24.759 +03:00 [DBG] The index {'ElementsElementId'} was not created on entity type 'ElementStyleRule (Dictionary<string, object>)' as the properties are already covered by the index {'ElementsElementId', 'StyleRulesStyleRuleId'}.
+2025-11-13 22:21:24.960 +03:00 [DBG] Entity Framework Core 9.0.10 initialized 'AutoMarkupDb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.10' with options: EngineType=SqlServer 
+2025-11-13 22:21:25.111 +03:00 [DBG] Executed controller factory for controller AutoMarkup.API.Controllers.UsersController (AutoMarkup.API)
+2025-11-13 22:21:25.119 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' ...
+2025-11-13 22:21:25.123 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' using the name '' in request data ...
+2025-11-13 22:21:25.126 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-13 22:21:25.137 +03:00 [DBG] Connection id "0HNH2T72OCPGI", Request id "0HNH2T72OCPGI:00000001": started reading request body.
+2025-11-13 22:21:25.139 +03:00 [DBG] Connection id "0HNH2T72OCPGI", Request id "0HNH2T72OCPGI:00000001": done reading request body.
+2025-11-13 22:21:25.154 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.ViewModel.UsersViewModel.RegisterRequest'
+2025-11-13 22:21:25.156 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 22:21:25.158 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 22:21:25.159 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest' ...
+2025-11-13 22:21:25.167 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.ViewModel.UsersViewModel.RegisterRequest'.
+2025-11-13 22:21:25.248 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Email == __email_0)'
+2025-11-13 22:21:25.444 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__email_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.FirstName (string) Required MaxLength(50), 3], [Property: User.LastName (string) Required MaxLength(50), 4], [Property: User.PasswordHash (string) Required, 5], [Property: User.Username (string) Required MaxLength(50), 6] }
+            SELECT TOP(1) u.UserId, u.CreatedAt, u.Email, u.FirstName, u.LastName, u.PasswordHash, u.Username
+            FROM Users AS u
+            WHERE u.Email == @__email_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.UserId PK | Resolver: c => c.Dependencies.Model.FindEntityType("Domain.AccountEntity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<UserId>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                    instance.<Email>k__BackingField = dataReader.GetString(2);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(3);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(4);
+                                    instance.<PasswordHash>k__BackingField = dataReader.GetString(5);
+                                    instance.<Username>k__BackingField = dataReader.GetString(6);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("Domain.AccountEntity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: Infrastructure.DbContexts.AutoMarkupDb, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-11-13 22:21:25.482 +03:00 [DBG] Creating DbConnection.
+2025-11-13 22:21:25.501 +03:00 [DBG] Created DbConnection. (17ms).
+2025-11-13 22:21:25.507 +03:00 [DBG] Opening connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:21:25.860 +03:00 [DBG] Opened connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:21:25.866 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-11-13 22:21:25.876 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2025-11-13 22:21:25.888 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (22ms).
+2025-11-13 22:21:25.898 +03:00 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-13 22:21:25.974 +03:00 [INF] Executed DbCommand (75ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-13 22:21:26.017 +03:00 [DBG] Context 'AutoMarkupDb' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-11-13 22:21:26.044 +03:00 [DBG] Closing data reader to 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:21:26.052 +03:00 [DBG] A data reader for 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 70ms reading results.
+2025-11-13 22:21:26.056 +03:00 [DBG] Closing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:21:26.063 +03:00 [DBG] Closed connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB' (6ms).
+2025-11-13 22:21:26.144 +03:00 [INF] Executed action AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API) in 1877.4603ms
+2025-11-13 22:21:26.147 +03:00 [INF] Executed endpoint 'AutoMarkup.API.Controllers.UsersController.CreateAccount (AutoMarkup.API)'
+2025-11-13 22:21:26.151 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: User already exists with this email
+   at UserService.RegisterAsync(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\Application\Services\UserService.cs:line 29
+   at AutoMarkup.API.Controllers.UsersController.CreateAccount(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API\Controllers\UsersController.cs:line 24
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-13 22:21:26.224 +03:00 [DBG] No candidates found for the request path '/error'
+2025-11-13 22:21:26.225 +03:00 [DBG] Request did not match any endpoints
+2025-11-13 22:21:26.231 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> System.ArgumentException: User already exists with this email
+   at UserService.RegisterAsync(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\Application\Services\UserService.cs:line 29
+   at AutoMarkup.API.Controllers.UsersController.CreateAccount(RegisterRequest request) in C:\Users\MohammedMyassar\Desktop\New folder (2)\AutoMarkup-Back-End\AutoMarkup.API\Controllers\UsersController.cs:line 24
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-13 22:21:26.247 +03:00 [DBG] Connection id "0HNH2T72OCPGI" completed keep alive response.
+2025-11-13 22:21:26.251 +03:00 [DBG] 'AutoMarkupDb' disposed.
+2025-11-13 22:21:26.257 +03:00 [DBG] Disposing connection to database 'AutoMarkupDB' on server '(localdb)\MSSQLLocalDB'.
+2025-11-13 22:21:26.259 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-11-13 22:21:26.262 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5294/api/Users/rigester - 500 null text/plain; charset=utf-8 2063.1098ms
+2025-11-13 22:21:26.268 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5294/api/Users/rigester, Response status code: 500
+2025-11-13 22:21:32.861 +03:00 [DBG] Connection id "0HNH2T72OCPGI" received FIN.
+2025-11-13 22:21:32.863 +03:00 [DBG] Connection id "0HNH2T72OCPGI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-13 22:21:32.864 +03:00 [DBG] Connection id "0HNH2T72OCPGI" disconnecting.
+2025-11-13 22:21:32.866 +03:00 [DBG] Connection id "0HNH2T72OCPGI" stopped.
